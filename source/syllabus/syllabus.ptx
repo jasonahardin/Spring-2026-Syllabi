@@ -1,0 +1,871 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<section xml:id="ma-099-syllabus" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>MA-099-03: Developmental Math: Algebra</title>
+  
+  <introduction>
+    <p>
+      Worcester State University, Spring 2026
+    </p>
+  </introduction>
+
+  <!-- Include chapters -->
+
+  <subsection xml:id="sec-course-info">
+    <title>Course Information</title>
+
+    <p>
+      <!-- use a description list (dl) for short items -->
+      <dl>
+        <li>
+          <title>Instructor</title>
+          <p>
+            Dr. Jason A. Hardin, Professor of Mathematics, Sullivan 145H, 
+            <url href="mailto:jhardin@worcester.edu">jhardin@worcester.edu</url>.
+          </p>
+        </li>
+
+        <li>
+          <title>Office Hours</title>
+
+          <p>
+            Office hours are times when I will regularly be available to answer questions or discuss concerns 
+            you have with the course; no appointment is necessary during these times! Office hours may be attended 
+            either in-person or via <url href="https://worcester.zoom.us/j/94288849183">Zoom</url> at the following 
+            times: Mondays 9:00am - 10:30am and Thursdays 1:00pm - 2:30pm.
+          </p>
+        </li>
+
+        <li>
+          <title>Meeting Information</title>
+
+          <p>
+            Tuesdays and Thursdays, 10:00am - 11:15am, Sullivan 123
+          </p>
+
+        </li>
+        
+        <li>
+          <title>Prerequisite</title>
+
+          <p>
+            WSU Mathematics Placement Exam Code 2, 3, or 4. Once you enroll in this course, you are no longer eligible to retake the placement exam.
+          </p>
+        </li>
+      </dl>
+    </p>
+
+  <!-- Use paragraphs to break apart subsections -->
+    <paragraphs>
+      <title>Math Placement Code</title>
+
+      <p>
+        You will receive a math placement code based on your final grade.
+        <ol>
+          <li>
+            <p>
+              Students who earn a B- or higher will receive a code 5. 
+              This is the prerequisite for MA-130 (Numbers and Operations for Teachers), 
+              MA-180 (Intro to Functions), and EC-202 (Intro to Mathematical Economics).
+            </p>
+          </li>
+          <li>
+            <p>
+              Students who earn a C-, C, or C+ will earn a code 4. 
+              This is the prerequisite for MA-150 (Statistics).
+            </p>
+          </li>
+          <li>
+            <p>
+              Students who earn a D-, D, or D+ will earn a code 3. 
+              This is a prerequisite for MA-105 (Survey of Mathematics), 
+              MA-107 (Mathematical Explorations), MA-125 (Mathematics for 
+              Early Childhood Education), and various STEM courses.
+            </p>
+          </li>
+          <li>
+            <p>
+              Students who earn an E will need to retake the course in order to achieve 
+              a higher placement code.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </paragraphs>
+
+    <paragraphs>
+      <title>Responsibility for Learning</title>
+      <p>
+        Every student in this course is responsible for their own learning. 
+        The instructor will make every effort to support you; however, if you need any help
+        it is your responsibility to reach out either via email or by attending office hours. 
+        You are responsible for checking your email daily for course announcements!
+      </p>
+    </paragraphs>
+
+    <paragraphs>
+      <title>Course Content</title>
+      <p>
+        This course is a review of elementary algebra. The goal is to prepare you for your next mathematics course. 
+        Topics include advanced arithmetic, simplifying expressions, linear equations, exponents, polynomial algebra, 
+        factoring, and rational expressions and equations. 
+        This course has 3 developmental credits not counting toward your degree.
+      </p>
+    </paragraphs>
+
+    <paragraphs>
+      <title>Required Course Materials</title>
+      <p>
+        All course documents, materials, and assignments will be posted on MyOpenMath (MOM), 
+        a free online course management system specifically designed for mathematics. 
+        You will need to create a MOM account and register for our course.
+        You will need access to a reliable computer with internet access throughout the semester.
+      </p>
+    </paragraphs>
+
+    <paragraphs>
+      <title>Calculator Use</title>
+      <p>
+        Calculators are not permitted to be used in this course.
+      </p>
+    </paragraphs>
+  </subsection>
+
+
+
+
+  <!-- Other subsections for larger dividers -->
+  <subsection xml:id="sec-grading">
+    <title>Assignments and Grading</title>
+
+    <paragraphs>
+      <title>Standards Based Grading</title>
+      <p>
+        We will be using standards based grading, which is an alternative approach to grading emphasizing progress and 
+        growth rather than an arbitrary weighted average of all assessments. Instead of using a percentage-based system, 
+        your grade will be determined by how well you display mastery of specific sorts of mathematical tasks called 
+        Learning Targets (LTs). This type of grading system allows students to make up for past poor performances by 
+        allowing for a limited number of reassessments without penalty, provides real-time feedback on their current 
+        understanding of course objectives, and directs and emphasizes long-term progress in key course objectives. 
+        All aspects of this course and its grading scheme will focus around the 22 LTs presented at the end of this 
+        syllabus. In short, your grade will be determined by your performance in four categories: class prep assignments,
+        online homework, weekly in-class quizzes, and a cumulative final exam; detailed information about each of these 
+        categories, as well as how your course grade will be determined using these categories, can be found in the following 
+        sections of this syllabus. You will likely find this system to be unfamiliar, so I encourage you to ask questions about 
+        this approach to grading as soon as they arise! Please see the “Advantages of Standards Based Grading” section of this 
+        syllabus for more information about why we are using this system!
+      </p>
+    </paragraphs>
+
+    <paragraphs>
+      <title>Class Prep Assignments</title>
+      <p>
+        A class prep assignment will be due before most class meetings consisting of a video introducing the topic for that class, 
+        followed by some basic questions asking you to demonstrate your understanding of the video. The class prep assignments will
+        be due by 11:59pm on Mondays and Wednesdays (i.e., the night before each class meeting). No late attempts will be accepted 
+        for any reason and no reassessment is allowed. Class prep assignments will be graded on correctness, completeness, and effort 
+        (as determined by the instructor) and will be weighted equally. No scores will be dropped.
+      </p>
+    </paragraphs>
+    <paragraphs>
+      <title>Online Homework</title>
+      <p>
+        There will be an online homework set for each LT opening on MOM after the class meeting when it is covered. 
+        Online homework sets are due by 11:59pm on Mondays. While the number of problems in each set will vary, your score will be 
+        considered as a percent and each set will be weighted equally when computing your online homework grade. 
+        No scores will be dropped. The online homework is set up so you can try most problems two times, then the correct answer will be shown. 
+        If you miss a problem and want to improve your score, you can click the “Try a similar problem” link, which will give you 
+        a new question of the same type. You can keep on working on versions of a question until you get it correct. 
+        You must earn at least 50% on an assignment for your score to count towards your grade; any set in which you earn less than 
+        50% will be counted as a 0. Assignments will remain available in “Practice” mode after their due date to provide additional 
+        practice of concepts; new versions of problems can be generated and answered, but scores will not be saved.
+      </p>
+      <p>
+        To account for any unexpected emergencies or technical issues that may occur, we will utilize the LatePass feature in MOM. 
+        A LatePass can be redeemed for an automatic 48-hour extension on a homework. To use a LatePass, click the “Use LatePass” 
+        button next to the appropriate assignment on MOM and the platform will automatically extend the due date for that assignment 
+        to 48 hours after the original due date. Each student will be given 14 LatePasses to use as they wish throughout the semester. 
+        Note a maximum of two LatePasses can be used on any single assignment. LatePasses can NOT be used on any online homework set 
+        which you view in “Practice” mode prior to redeeming the LatePass. If circumstances require a more substantial extension, contact 
+        your instructor as soon as possible to discuss this possibility.
+      </p>
+      <p>
+        Although you will be entering only answers, I encourage you to work out each problem carefully on paper. 
+        This will help you follow your reasoning when you are reviewing for quizzes. I strongly encourage you to start each assignment 
+        right away so you will have ample time to ask questions. The exercises are intended to both provide practice of concepts covered 
+        in class as well as extend these concepts beyond what is done in class; in particular, you should expect to find some of the 
+        exercises difficult. Many quiz problems will be based on the homework exercises, including the more difficult ones, so you should 
+        aim to understand the underlying idea for each assigned exercise. You should expect to spend several hours each week working on homework.
+      </p>
+      <p>
+        If you are having trouble on a problem, you may use the “Message Instructor” link, which will allow you to send me a message through MOM; 
+        the specific problem you are working on will be automatically included in the message. I can then reply to the message with some guidance. 
+        These messages are internal to MOM and not email, so my reply will go to your messages when you login to MOM.
+      </p>
+    </paragraphs>
+
+    <paragraphs>
+      <title>Quizzes</title>
+
+      <p>
+        We will have a quiz at the end of every Thursday class (and possibly some Tuesdays toward the end of the semester) where you will have an 
+        opportunity to demonstrate your understanding of the course LTs. Each quiz question will address a single LT; you will receive a score for 
+        each individual question based on how well you showed your understanding of the corresponding LT according to the following rubric:
+      </p>
+
+      <tabular>
+        <row header="yes">
+          <cell>Score</cell>
+          <cell>Description</cell>
+        </row> 
+        <row>
+          <cell>4</cell>
+          <cell>
+            <alert>Mastery of the LT exceeding expections.</alert>
+            Provides clear understanding with complete and clear communication. 
+            Any error is trivial.
+          </cell>
+        </row>
+        <row>
+          <cell>3</cell>
+          <cell>
+            <alert>Adequate understanding of the LT meeting expectations. </alert>
+            Provides an adequate understanding with correct work and clear explanations. 
+            Some revisions or expansion is needed, but no significant gaps or errors are present.
+          </cell>
+        </row>
+        <row>
+          <cell>2</cell>
+          <cell>
+            <alert>Partial understanding of LT falling below expectations.</alert>
+            Provides a partial understanding, but significant gaps remain.
+            Needs further work, more review, and/or improved explanation.
+          </cell>
+        </row>
+        <row>
+          <cell>1</cell>
+          <cell>
+            <alert>Little understanding of LT falling significantly below expectations.</alert>
+            Provides little to no understanding with either fragmentary work, 
+            significant errors or omissions, or too many errors.
+          </cell>
+        </row>
+        <row>
+          <cell>0</cell>
+          <cell>
+            <alert>No understanding of the LT or LT was not attempted.</alert>
+          </cell>
+        </row>
+      </tabular>
+      
+      <p>
+        Each LT will be assessed twice on in-class quizzes before the end of the semester, typically during consecutive Thursday classes. 
+        A limited number of reassessments will be allowed; see next paragraph for details. 
+        Your grade for each LT will be the average of your highest two attempts among the two in-class quizzes and any reassessment attempts you complete.
+      </p>
+
+      <p>
+        In order to continually emphasize progress and growth, you may try to improve your score on any LT by reassessing on it. 
+        In other words, if you did not perform well on a LT on an in-class quiz, you may reattempt a quiz question on that LT again. 
+        Reassessments can be taken in-class during a future quiz or in my office during office hours or other times set aside for reassessments. 
+        Reassessments must be scheduled at least 24 hours in advance using the Google Form posted on MOM to ensure I will have the appropriate reassessment ready! 
+        ou must submit this form 24 hours prior in order to be allowed to reassess; simply showing up at my office will not suffice! 
+        You may reassess no more than two LTs per week. 
+        In addition to these weekly reassessment opportunities, two of our Thursday class meetings, March 12 and April 30, will be dedicated “reassessment days.” 
+        No new material will be covered on these days, instead the class time will be dedicated to allowing students to reassess on up to 10 LTs each 
+        in addition to the usual LT quiz for that class meeting.
+      </p>
+
+      <p>
+        Let's look at an example of how the LT Quizzes and reassessments will work! 
+        Suppose Alex earns a 0 on a specific LT the first time it is assessed and a 3 the second time it is assessed; 
+        at this point Alex's score for this LT is a 1.5 (the average of their two attempts, 0 and 3).
+        Alex then requests to reassess on this LT in an office hour the following week. Alex earns a 4 on this reassessment; 
+        now their score for this LT is a 3.5 (the average of the highest two attempts, 3 and 4; the initial 0 is no longer counted!). 
+        In this example, Alex has learned from their mistake, and shown growth and progress towards mastery of this LT. 
+        Their score reflects this growth!
+      </p>
+    </paragraphs>
+
+    <paragraphs>
+      <title>Final Exam</title>
+      
+      <p>
+        There will be a cumulative final exam, which is scheduled for Tuesday, May 12, 8:30-11:30am, the time indicated on the WSU Spring 2026 Academic Calendar. 
+        The final exam will consist of 22 problems, each associated with one of the 22 LTs for this course. 
+        Each problem will be scored using the same 0-4 rubric as the LT Quizzes. There will be no reassessments for the final exam! 
+        A make-up final exam will be given at the instructor's discretion, and only when there is a legitimate reason for missing the original final exam.
+        Working or arriving late for the final exam are not legitimate reasons for missing the final!
+      </p>
+    </paragraphs>
+
+    <paragraphs>
+      <title>Letter Grade Assignments</title>
+
+      <p>
+        Your final grade is based on completing a specific list of requirements. 
+        Your final grade will be the highest grade whose criteria you <alert>fully</alert> satisfy.
+      </p>
+      <ul>
+        <li>
+          <p>
+            In order to guarantee a grade of "A", you should attain all of the following:
+              <ul>
+                <li>
+                  <p>
+                    Class prep assignments: Score of 90% or higher
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Homework: Score of 90% or higher
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Quiz LTs: 4's on 18 of the 22 LTs, none below a 3
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Final exam: 4's on 18 of the 22 problems
+                  </p>
+                </li>
+              </ul>
+          </p>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <p>
+            In order to guarantee a grade of "B", you should attain all of the following:
+              <ul>
+                <li>
+                  <p>
+                    Class prep assignments: Score of 80% or higher
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Homework: Score of 80% or higher
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Quiz LTs: 3's on 18 of the 22 LTs, none below a 2
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Final exam: 3's on 18 of the 22 problems
+                  </p>
+                </li>
+              </ul>
+          </p>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <p>
+            In order to guarantee a grade of "C", you should attain all of the following:
+              <ul>
+                <li>
+                  <p>
+                    Class prep assignments: Score of 70% or higher
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Homework: Score of 70% or higher
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Quiz LTs: 3's on 14 of the 22 LTs, no 0's
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Final exam: 3's on 12 of the 22 problems, 1.5 average or higher on remaining problems
+                  </p>
+                </li>
+              </ul>
+          </p>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <p>
+            In order to guarantee a grade of "D", you should attain all of the following:
+              <ul>
+                <li>
+                  <p>
+                    Class prep assignments: Score of 60% or higher
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Homework: Score of 60% or higher
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Quiz LTs: 2's on 14 of the 22 LTs, no 0's
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Final exam: 2's on 12 of the 22 problems, 1 average of higher on remaining problems
+                  </p>
+                </li>
+              </ul>
+          </p>
+        </li>
+      </ul>
+
+      <p>
+        If you satisfy all requirements for one of the letter grades and also meet two of the requirements for the next higher letter grade, 
+        you will earn a plus (+) grade; for example, a student who meets all four requirements for a "B" and also meets two of the requirements 
+        for an "A" will earn a "B+"".
+      </p>
+
+      <p>
+        If you satisfy three of the four requirements for one of the letter grades as well as the fourth requirement in the next lower letter grade, 
+        you will earn a minus (-) grade; for example, a student who meets the first three requirements for an "A" and also earns 3's or higher on 18 
+        of 22 final exam problems (the last requirement for a "B") will earn a final grade of "A-".
+      </p>
+
+      <p>
+        Students who do not earn a "D-"or higher according to the above rules will earn an "E".
+      </p>
+
+      <p>
+        The instructor reserves the right to change the above requirements for grade determination at any time and for any reason, 
+        but only in ways which will favor students!
+      </p>
+      
+    </paragraphs>
+
+    <paragraphs>
+      <title>Advantages of Standards Based Grading</title>
+
+      <p>
+        This grading system may be unfamiliar to you, and therefore cause some level of confusion or stress. 
+        Please try to keep an open mind about this grading system and remember things are not bad simply because they are unfamiliar! 
+        From my point of view as a mathematics professor who has taught a vast number of courses for over a decade, 
+        including this one multiple times, there are three major advantages of this standards based grading system over a 
+        traditional weighted-average system:
+      </p>
+
+      <ol>
+        <li>
+          <p>
+            You will have several opportunities to display your understanding of the material. 
+            You will be assessed on each of the LTs twice on quizzes and have the ability to reassess on them, 
+            so you do not need to worry if you do not completely understand a LT the first time you encounter it! 
+            If it takes you a bit longer to grasp a concept, you will not be penalized as long as you make the effort to reassess!
+          </p>
+        </li>
+        <li>
+          <p>
+            This approach stresses working out problems in a completely correct way to emphasize your learning, since doing many tasks poorly is not advantageous. 
+            This will help you succeed in your next mathematics class!
+          </p>
+        </li>
+        <li>
+          <p>
+            This system allows you to see the expectations of our course and how well you are meeting those expectations. 
+            If you would like to do better in this course, this system will make it clear exactly how you can do better 
+            (e.g., study a particular LT on which you have a low score and reassess on it!).
+          </p>
+        </li>
+      </ol>
+
+      <p>
+        If at any time you are unsure about how you are progressing in this course, I would be more than happy to speak with you about your progress!
+      </p>
+      
+    </paragraphs>
+  </subsection>
+
+  <subsection xml:id="subsec-Course_Policies">
+    <title>Course Policies</title>
+    
+    <paragraphs>
+      <title>Extra Credit</title>
+
+      <p>
+        There will be no extra credit available in this course. If you are interested in raising your grade, take the time you would have spent on 
+        an extra credit assignment and spend it making sure you get more “regular credit” instead; for example, by studying for and scheduling a reassessment!
+      </p>
+      
+    </paragraphs>
+
+    <paragraphs>
+      <title>Attendance and Class Recording</title>
+      
+      <p>
+        You are expected to attend each class meeting. If you must miss class, you are responsible for all announcements and material covered. 
+        Many of the topics we will cover build upon previously covered topics, so getting behind in this course can be problematic. 
+        With that said: <alert>If you are sick, please do not come to class!</alert> I will make sure you do not miss anything! 
+        To this end, an attempt will be made to record the instructional parts of all class meetings. 
+        These recordings will be accessible only to the instructor and students in this course for the purpose of reviewing class discussions 
+        and presentations at a later time. These recordings could include your image, voice, and other forms of participation in this course. 
+        By enrolling in this course you are consenting to being recorded in this way.
+      </p>
+    </paragraphs>
+
+    <paragraphs>
+      <title>Class Cancelation</title>
+
+      <p>
+        If class is canceled for any reason, you may be asked to review some course material on your own before the next class meeting. 
+        All expectations will be communicated through email shortly after the cancellation is announced.
+      </p>
+      
+    </paragraphs>
+
+    <paragraphs>
+      <title>Email</title>
+      
+      <p>
+        I try to respond to emails within 24 hours; typically, emails received by 4:00pm will receive a response the same day, 
+        and those received after 4:00pm will receive a response the following day. You are encouraged to email me regarding any
+        issues you are having in this course at any time; however, emails sent within 24 hours of an assessment may not get 
+        a response beforehand. So please plan accordingly!
+      </p>
+    </paragraphs>
+
+    <paragraphs>
+      <title>Studying</title>
+      
+        <p>
+          To succeed in this course, you will need to dedicate a significant amount of time to the course. 
+          Mathematics is learned by doing, meaning it is important to work numerous problems to fully understand the concepts we cover. 
+          The assigned work is the minimum amount you should be completing; if you feel like you don't fully understand a concept, ask
+          me for some additional problems. A general rule (for all college courses) is for each hour of class per week you spend a minimum 
+          of two hours outside of class on homework, studying, etc. Since this course meets three hours per week, you should plan 
+          to spend at least six hours outside of class per week working on math.
+        </p>
+    </paragraphs>
+
+    <paragraphs>
+      <title>Tutoring</title>
+      
+      <p>
+        The WSU Math Center will be offering free drop-in tutoring for this course beginning the second week of the semester. 
+        Hours will be posted on MOM. This is a great resource if you have questions about course content!
+      </p>
+    </paragraphs>
+
+    <paragraphs>
+      <title>Accomodations</title>
+      
+      <p>
+        If you anticipate issues related to the format or requirements of this course, please contact me as early as possible to discuss ways to 
+        ensure your full participation. If you believe formal, disability-related accommodations are appropriate, it is very important you register 
+        with the Student Accessibility Services office and notify me of your eligibility for such accommodations.
+        We can then plan how to best coordinate your accommodations.
+      </p>
+    </paragraphs>
+
+    <paragraphs>
+      <title>Academic Integrity and AI Usage</title>
+
+      <p>
+        The WSU Mathematics Department does not tolerate academic dishonesty! For an explanation of what is considered “academic dishonesty” at 
+        WSU, please see the policy included in the <url href="https://catalog.worcester.edu/undergraduate/academic-policies-procedures/academic-honesty">2025-2026 
+        Undergraduate Catalog</url>. All instructors in the WSU Mathematics Department are required to 
+        report all incidents of academic dishonesty observed, detected, or otherwise determined to have occurred to the WSU Academic Central File. 
+        WSU requires some penalty be imposed for every reported violation of the academic honesty policy. All incidents of academic dishonesty in 
+        this course will result in (at least) a score of 0 on that assignment; additional penalties will be imposed at the instructor's discretion 
+        and/or as required by the 
+        <url href="https://webcdn.worcester.edu/mathematics/wp-content/uploads/sites/17/2023/03/Math-Department-Academic-Honesty-Policy.pdf">Mathematics 
+        Department Academic Honesty Policy</url>. In this course, instances of academic dishonesty will include (but not limited to!):
+      </p>
+
+      <ul>
+        <li>
+          <p>
+            Submitting any assignment (including class prep assignments or homework) you did not complete yourself, either work produced by a classmate/friend or from 
+            an online third party (such as Chegg, Course Hero, etc.). Working with your peers is completely fine and strongly encouraged; 
+            however, any submissions should be a result of your own understanding of the subject matter based on this collaboration.
+          </p>
+        </li>
+        <li>
+          <p>
+            Using course materials, the internet, or a calculator in any unauthorized way during a weekly quiz or the final exam (including looking up answers online, 
+            viewing notes/texts/examples on MOM or another site, communicating with other students).
+          </p>
+        </li>
+        <li>
+          <p>
+            AI cannot be used on graded assignments in this course unless otherwise specified.
+          </p>
+        </li>
+      </ul>
+      
+    </paragraphs>
+
+    <paragraphs>
+      <title>Instructor Rights</title>
+      <p>
+        <alert> As the instructor of this course, I reserve the right to make changes to the above course policies at any time. All changes will be announced in class.</alert>
+      </p>
+    </paragraphs>
+  </subsection>
+
+  <subsection xml:id="subsec-StudentLearningOutcomes">
+    <title>Student Learning Outcomes</title>
+    <p>
+      Students will be able to solve problems involving 
+    </p>
+    <ol>
+      <li>
+        <p>
+          Operations with integers and rational numbers: topics include computation with integers and negative rationals, the use of absolute values, and ordering.
+        </p>
+      </li>
+      <li>
+        <p>
+          Operations with algebraic expressions: topics include the evaluation of simple formulas and expressions, adding and subtracting monomials and polynomials, 
+          multiplying and dividing monomials and polynomials, the evaluation of positive rational roots and exponents, simplifying algebraic fractions, and factoring.
+        </p>
+      </li>
+      <li>
+        <p>
+          Solution of equations, inequalities, word problems: topics include solving linear equations and inequalities, solving quadratic equations by factoring, 
+          solving verbal problems presented in an algebraic context, including geometric reasoning and graphing, and the translation of written phrases into algebraic 
+          expressions.
+        </p>
+      </li>
+    </ol>
+  </subsection>
+
+  <subsection xml:id="subsec-TentativeSchedule">
+    <title>Tentative Schedule</title>
+
+    <p>
+      Below is a tentative schedule for this course, with a heavy emphasis on "tentative." Adjustments will be announced in class as well as via email. 
+      Note the last day to drop the course is <alert>Monday, February 2</alert>, the last day to withdrawal is <alert>Wednesday, April 1</alert>, 
+      and the last day to elect pass/fail status is <alert> Wednesday, April 8 </alert>.
+    </p>
+
+      <tabular>
+        <row header = "yes">
+          <cell>Week (Mon)</cell>
+          <cell>Tuesday Topics (LT)</cell>
+          <cell>Thursday Topics (LT)</cell>
+        </row>
+        <row>
+          <cell>1/19</cell>
+          <cell>Course Introductions</cell>
+          <cell>Fractions (1)</cell>
+        </row>
+        <row>
+          <cell>1/26</cell>
+          <cell>Order of operations (2)</cell>
+          <cell>Exps/abs value.square roots (3)</cell>
+        </row>
+        <row>
+          <cell>2/2</cell>
+          <cell>Real numbers (4)</cell>
+          <cell>Linear equations (5)</cell>
+        </row>
+        <row>
+          <cell>2/9</cell>
+          <cell>Linear equations (6)</cell>
+          <cell>Formulas (7)</cell>
+        </row>
+        <row>
+          <cell>2/16</cell>
+          <cell>Word problems (8)</cell>
+          <cell>Exponent properties (9)</cell>
+        </row>
+        <row>
+          <cell>2/23</cell>
+          <cell>Add/subtract polynomials (10)</cell>
+          <cell>Multiply polynomials (11)</cell>
+        </row>
+        <row>
+          <cell>3/2</cell>
+          <cell>Divide polynomials (12)</cell>
+          <cell> Factoring GCFs (13)</cell>
+        </row>
+        <row>
+          <cell>3/9</cell>
+          <cell>Grouping (14)</cell>
+          <cell><alert>Reassessment Day</alert></cell>
+        </row>
+        <row>
+          <cell>3/16</cell>
+          <cell colspan="2" halign="center"><alert>Spring Break</alert></cell>
+        </row>
+        <row>
+          <cell>3/23</cell>
+          <cell>Factoring trinomials (15)</cell>
+          <cell>Difference of squares (16)</cell>
+        </row>
+        <row>
+          <cell>3/30</cell>
+          <cell>Quadratic equations (17)</cell>
+          <cell>Simplifying ration expressions (18)</cell>
+        </row>
+        <row>
+          <cell>4/6</cell>
+          <cell>Mult/div rational expressions (19)</cell>
+          <cell>Add/sub rational expressions (20)</cell>
+        </row>
+        <row>
+          <cell>4/13</cell>
+          <cell>Add/subtract rational expressions (21)</cell>
+          <cell>Rational equations (22)</cell>
+        </row>
+        <row>
+          <cell>4/20</cell>
+          <cell>Rational equations (22)</cell>
+          <cell>Review/catch up</cell>
+        </row>
+        <row>
+          <cell>4/27</cell>
+          <cell>Review/catch up</cell>
+          <cell><alert>Reassessment Day</alert></cell>
+        </row>
+        <row>
+          <cell>5/4</cell>
+          <cell colspan="2" halign="center">No class meetings; optional reassessments</cell>
+        </row>
+        <row>
+          <cell>5/11</cell>
+          <cell colspan="2" halign="center"><alert>Final Exam: Tuesday, May 12, 8:30-11:30am</alert></cell>
+        </row>
+      </tabular>
+    
+  </subsection>
+
+  <subsection xml:id="subsec-LearningTargets">
+    <title>Learning Targets (LTs)</title>
+
+    <p>
+      Here is a list of the 22 LTs for this course. Most will only be referred to by number 
+      (as in, “"his week's quiz will cover LTs #12, 13 and 14.") so you will need to refer to this list frequently.
+    </p>
+
+    <ol>
+      <li>
+        <p>
+          Add, subtract, multiply, and divide fractions.
+        </p>
+      </li>
+      <li>
+        <p>
+          Evaluate and simplify expressions using the order of operations.
+        </p>
+      </li>
+      <li>
+        <p>
+          Evaluate numbers and simplify expressions involving exponents, absolute values, and square roots.
+        </p>
+      </li>
+      <li>
+        <p>
+          Locate numbers on the number line and answer questions about their relative positions.
+        </p>
+      </li>
+      <li>
+        <p>
+          Solve linear equations with whole number coefficients.
+        </p>
+      </li>
+      <li>
+        <p>
+          Solve linear equations involving fractions.
+        </p>
+      </li>
+      <li>
+        <p>
+          Evaluate formulas at given values and solve them for a given variable.
+        </p>
+      </li>
+      <li>
+        <p>
+          Solve word problems by setting up and solving an equation.
+        </p>
+      </li>
+      <li>
+        <p>
+          Simplify expressions using various properties of exponents.
+        </p>
+      </li>
+      <li>
+        <p>
+          Add and subtract polynomials.
+        </p>
+      </li>
+      <li>
+        <p>
+          Multiply polynomials, including squaring a binomial.
+        </p>
+      </li>
+      <li>
+        <p>
+          Divide polynomials by a monomial.
+        </p>
+      </li>
+      <li>
+        <p>
+          Identify the greatest common factor (GCF) of a polynomial, and factor it from a polynomial.
+        </p>
+      </li>
+      <li>
+        <p>
+          Use factoring by grouping to completely factor a polynomial.
+        </p>
+      </li>
+      <li>
+        <p>
+          Factor trinomials of the form <m>x^2+bx+c</m>, including ones with GCFs.
+        </p>
+      </li>
+      <li>
+        <p>
+          Factor a difference of squares, including ones with GCFs.
+        </p>
+      </li>
+      <li>
+        <p>
+          Solve quadratic equations using the zero-product property and factoring.
+        </p>
+      </li>
+      <li>
+        <p>
+          Simplify a rational expression completely.
+        </p>
+      </li>
+      <li>
+        <p>
+          Multiply and divide rational expressions, and simplify completely.
+        </p>
+      </li>
+      <li>
+        <p>
+          Add and subtract rational expressions with like denominators, and simplify completely.
+        </p>
+      </li>
+      <li>
+        <p>
+          Find the lowest common denominator (LCD) for rational expressions, and use them to add and subtract rational expressions with unlike denominators.
+        </p>
+      </li>
+      <li>
+        <p>
+          Solve rational equations.
+        </p>
+      </li>
+    </ol>
+    
+  </subsection>
+</section>
