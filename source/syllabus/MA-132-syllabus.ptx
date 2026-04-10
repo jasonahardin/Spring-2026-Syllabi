@@ -1,0 +1,882 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<section xml:id="ma-132-syllabus" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>MA-132-01: Geometry, Measurement, Probability, and Statistics for Teachers</title>
+  
+  <introduction>
+    <p>
+      Worcester State University, Spring 2026
+    </p>
+  </introduction>
+
+  <!-- Include chapters -->
+
+  <subsection xml:id="sec-132-course-info">
+    <title>Course Information</title>
+
+    <p>
+      <dl>
+        <li>
+          <title>Instructor</title>
+          <p>
+            Dr. Jason A. Hardin, Professor of Mathematics, Sullivan 145H, 
+            <url href="mailto:jhardin@worcester.edu">jhardin@worcester.edu</url>.
+          </p>
+        </li>
+
+        <li>
+          <title>Office Hours</title>
+
+          <p>
+            Office hours are times when I will regularly be available to answer questions or discuss concerns 
+            you have with the course; no appointment is necessary during these times! Office hours may be attended 
+            either in-person or via <url href="https://worcester.zoom.us/j/94288849183">Zoom</url> at the following 
+            times: Mondays 9:00am - 10:30am and Thursdays 1:00pm - 2:30pm.
+          </p>
+        </li>
+
+        <li>
+          <title>Meeting Information</title>
+
+          <p>
+            Tuesdays and Thursdays, 8:30am - 9:45am, Sullivan 123
+          </p>
+
+        </li>
+        
+        <li>
+          <title>Prerequisite</title>
+
+          <p>
+            MA-130 with a grade of at least C
+          </p>
+        </li>
+      </dl>
+    </p>
+
+    <paragraphs>
+      <title>Responsibility for Learning</title>
+      <p>
+        Every student in this course is responsible for their own learning. 
+        The instructor will make every effort to support you; however, if you need any help
+        it is your responsibility to reach out either via email or by attending office hours. 
+        You are responsible for checking your email daily for course announcements!
+      </p>
+    </paragraphs>
+
+    <paragraphs>
+      <title>Course Content</title>
+      <p>
+        The primary goal of this course is to deepen your understanding of the geometry and measurement 
+        (and, a bit of the probability and statistics) strand of K--8 mathematics. 
+        This will often involve studying mathematics beyond the K--8 level to help future teachers gain a 
+        better perspective of how the topics and concepts they teach fit into the broader mathematical structure. 
+        Strengthening your understanding will help you to be more effective as a teacher. 
+        The course will provide a careful, mathematically accurate development of geometry and measurement 
+        (and a bit of probability and statistics) and help you teach the subject in a coherent and meaningful way. 
+        Mathematics has a structure that is logical -- everything has a reason. 
+        Understanding math well is the key to being able to teach it well. 
+        Course topics include measurement, geometric figures, unknown angles, deductive geometry, area, 
+        volume/surface area, similarity, introductory probability, and data analysis.
+      </p>
+    </paragraphs>
+
+    <paragraphs>
+      <title>Required Course Materials</title>
+      <p>
+        There is one required text for this course:  
+        \emph{Elementary Geometry for Teachers}, by Thomas H. Parker and Scott J. Baldridge. 
+        The book is currently out of print, but a copy will be loaned to you for the semester; 
+        you will need to return it. All other course documents, materials, and assignments will 
+        be posted on MyOpenMath (MOM), a free online course management system specifically designed for mathematics. 
+        You will need to create a MOM account and register for our course.
+      </p>
+    </paragraphs>
+
+    <paragraphs>
+      <title>Calculator Use</title>
+      <p>
+        Calculators are not permitted to be used in this course.
+      </p>
+    </paragraphs>
+  </subsection>
+
+
+
+
+  <!-- Other subsections for larger dividers -->
+  <subsection xml:id="sec-132-grading">
+    <title>Assignments and Grading</title>
+
+    <paragraphs>
+      <title>Standards Based Grading</title>
+      <p>
+        In this course we will be using standards based grading, which is an alternative approach to grading that 
+        emphasizes progress and growth rather than an arbitrary weighted average of all assessments. 
+        Instead of using a percentage-based system, your grade will be determined by how well you display mastery 
+        of specific sorts of mathematical tasks called Learning Targets (LTs). This type of grading system allows 
+        students to make up for past poor performances by allowing for a limited number of reassessments without penalty, 
+        provides real-time feedback on their current understanding of course objectives, and directs and emphasizes 
+        long-term progress in key course objectives. All aspects of this course and its grading scheme will focus 
+        around the 22 LTs presented at the end of this syllabus. In short, your grade will be determined by your 
+        performance in three categories: preparation and participation, in-class quizzes, and a cumulative final exam; 
+        detailed information about each of these categories, as well as how your course grade will be determined using 
+        these categories, can be found in the following sections of this syllabus. You will likely find this system to 
+        be unfamiliar, so I encourage you to ask questions about this approach to grading as soon as they arise! Please 
+        see the ``Advantages of Standards Based Grading'' section of this syllabus for more information about why we are 
+        using this system in this course!
+      </p>
+    </paragraphs>
+
+    <paragraphs>
+      <title>Preparation and Participation</title>
+      <p>
+        This is the first category contributing towards your course grade. 
+        There will be two primary types of assessments considered in this category:
+      </p>
+
+      <dl>
+        <li>
+          <title>Reading Guides</title> 
+          <p>
+            A reading guide will be assigned to be completed before most class meetings. 
+            Each will consist of a reading assignment from the required text and questions 
+            designed to help you take good notes. Completing a reading guide before class 
+            means you are prepared with all relevant definitions and basic examples worked 
+            out in front of you, and allows us to spend class time discussing more difficult 
+            aspects of the material and working together on problems! Our work in class will 
+            assume you have completed the reading guide; failure to do so could contribute to 
+            confusion about the course material. You will complete each reading guide in your 
+            own notes, then scan your pages into a single PDF and submit through MOM. Reading 
+            guides will be due by 11:59pm on Mondays and Wednesdays (i.e., the night before each 
+            class meeting). No late attempts will be accepted for any reason and no reassessment 
+            is allowed. Reading guides will be graded on completeness and effort as determined 
+            by the instructor.
+          </p> 
+        </li>
+        <li>
+          <title>Class Participation</title>
+          <p>
+            We will meet weekly on Tuesdays and Thursdays, 8:30--9:45am. Attendance and active participation, 
+            including working collaboratively with classmates, during these meetings are expected. The class 
+            meetings will consist of a mix of lecture and active learning activities based on the course 
+            material from the reading guide. You will earn a weekly participation grade; to earn credit for 
+            this, you must fully participate throughout the entire class meeting -- this means being in class 
+            ready to go at 8:30am, having phones/laptops/other devices put away, and only your notes and other 
+            material related to this course and the topic at hand on your desk.
+          </p>
+        </li>
+      </dl>
+      <p>
+        Your overall Preparation and Participation score will be determined by your reading guide scores 
+        and class participation scores averaged together.
+      </p>
+    </paragraphs>
+
+
+    <paragraphs>
+      <title>Quizzes</title>
+
+      <p>
+        This category is based on your demonstration of this course's 22 learning targets as assessed on in-class quizzes given at the end of every Thursday class. 
+        Each quiz question will address a single LT; you will receive a score for each individual question based on how well you showed your understanding of the 
+        corresponding LT according to the following rubric:
+      </p>
+
+      <tabular>
+        <row header="yes">
+          <cell>Score</cell>
+          <cell>Description</cell>
+        </row> 
+        <row>
+          <cell>4</cell>
+          <cell>
+            <alert>Mastery of the LT exceeding expections.</alert>
+            Provides clear understanding with complete and clear communication. 
+            Any error is trivial.
+          </cell>
+        </row>
+        <row>
+          <cell>3</cell>
+          <cell>
+            <alert>Adequate understanding of the LT meeting expectations. </alert>
+            Provides an adequate understanding with correct work and clear explanations. 
+            Some revisions or expansion is needed, but no significant gaps or errors are present.
+          </cell>
+        </row>
+        <row>
+          <cell>2</cell>
+          <cell>
+            <alert>Partial understanding of LT falling below expectations.</alert>
+            Provides a partial understanding, but significant gaps remain.
+            Needs further work, more review, and/or improved explanation.
+          </cell>
+        </row>
+        <row>
+          <cell>1</cell>
+          <cell>
+            <alert>Little understanding of LT falling significantly below expectations.</alert>
+            Provides little to no understanding with either fragmentary work, 
+            significant errors or omissions, or too many errors.
+          </cell>
+        </row>
+        <row>
+          <cell>0</cell>
+          <cell>
+            <alert>No understanding of the LT or LT was not attempted.</alert>
+          </cell>
+        </row>
+      </tabular>
+      
+      <p>
+        Each LT will be assessed twice on in-class quizzes before the end of the semester. 
+        A limited number of reassessments will be allowed (see next paragraph for details). 
+        Your grade for each LT will be the average of your highest two attempts among the two 
+        in-class quizzes and any reassessment attempts you complete.
+      </p>
+
+      <p>
+        In order to continually emphasize progress and growth, you may try to improve your score on any LT by reassessing on it. 
+        In other words, if you did not perform well on a LT on an in-class quiz, you may reattempt a question on that LT again. 
+        Reassessments can be taken in-class during a future quiz or in my office during office hours or other times set aside for reassessments. 
+        \textbf{Reassessments must be scheduled at least 24 hours in advance using the Google Form posted on MOM} to ensure I will
+         have the appropriate reassessment ready! You \textbf{must} submit this form 24 hours prior in order to be allowed to reassess; 
+         simply showing up at my office will not suffice! You may reassess no more than two LTs per week. In addition to these weekly 
+         reassessment opportunities, two of our Thursday class meetings, March 12 and April 30, will be dedicated ``reassessment days.'' 
+         No new material will be covered on these days, instead the class time will be dedicated to allowing students to reassess on up to 
+         10 LTs each in addition to the usual LT quiz for that class meeting. 
+      </p>
+
+      <p>
+        Let's look at an example of how the LT Quizzes and reassessments will work!  
+        Suppose Alex earns a 0 on a specific LT the first time it is assessed and a 3 the second time it is assessed; 
+        at this point Alex's score for this LT is a 1.5 (the average of their two attempts, 0 and 3). 
+        Alex then requests to reassess on this LT in an office hour the following week. 
+        Alex drops by to reassess on the LT and earns a 4; now their score for this LT is a 3.5 
+        (the average of the highest two attempts, 3 and 4) -- meaning the initial 0 is no longer counted! 
+        In this example, Alex has learned from their mistake, and shown growth and progress towards mastery of this LT. 
+        Their score reflects this growth!
+      </p>
+
+      <p>
+        A collection of practice problems will be available for each of the LTs to provide a sample of the types of things 
+        you might be asked on the LT Quizzes, as well as provide some zero-stakes practice of the various concepts we've discussed. 
+        These practice problems will not be collected, nor will they contribute towards your course grade in any direct way; 
+        however, in many cases, practice will be necessary to master the LTs in this course! I will happily provide feedback on 
+        your work on any of the practice problems, if desired; simply email me your work. 
+      </p>
+    </paragraphs>
+
+    <paragraphs>
+      <title>Final Exam</title>
+      
+      <p>
+        The third category is a cumulative final exam, which is scheduled for Thursday, May 7, 8:30 -- 11:30am, 
+        the time indicated on the 
+        <url href="https://www.worcester.edu/academics/catalogs-calendars/2025-26-academic-calendar/">WSU Spring 2026 Academic Calendar</url>. 
+        The final exam will consist of 16 problems, each associated with one of the 22 LTs for this course. 
+        Each problem will be scored using the same 0--4 rubric as the LT Quizzes. 
+        There will be no reassessments for the final exam! A make-up final exam will be given at the instructor's discretion, 
+        and only when there is a legitimate reason for missing the original final exam. Working or arriving late for 
+        class are not legitimate reasons for missing the final!
+      </p>
+    </paragraphs>
+
+    <paragraphs>
+      <title>Letter Grade Assignments</title>
+
+      <p>
+        Your final grade is based on completing a specific list of requirements. 
+        Your final grade will be the highest grade whose criteria you <alert>fully</alert> satisfy.
+      </p>
+      <ul>
+        <li>
+          <p>
+            In order to guarantee a grade of "A", you should attain all of the following:
+              <ul>
+                <li>
+                  <p>
+                    Preparation and Participation:  Score of 93% or higher
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Quiz LTs: 4's on 18 of the 22 LTs, none below a 3
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Final Exam: 4's on 12 of 16 problems
+                  </p>
+                </li>
+              </ul>
+          </p>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <p>
+            In order to guarantee a grade of "B", you should attain all of the following:
+              <ul>
+                <li>
+                  <p>
+                    Preparation and Participation:  Score of 88% or higher
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Quiz LTs: 3's or higher on 18 of the 22 LTs, none below a 2
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Final Exam: 3's or higher on 12 of 16 problems
+                  </p>
+                </li>
+              </ul>
+          </p>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <p>
+            In order to guarantee a grade of "C", you should attain all of the following:
+              <ul>
+                <li>
+                  <p>
+                    Preparation and Participation:  Score of 83% or higher
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Quiz LTs: 3's or higher on 14 of the 22 LTs, no 0's
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Final Exam: 3's on 8 of 16 problems, 1.5 average or higher on remaining problems
+                  </p>
+                </li>
+              </ul>
+          </p>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <p>
+            In order to guarantee a grade of "D", you should attain all of the following:
+              <ul>
+                <li>
+                  <p>
+                    Preparation and Participation:  Score of 78\% or higher
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Quiz LTs: 2's or higher on 14 of the 22 LTs
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Final Exam: 2's on 8 of 16 problems, 1 average or higher on remaining problems
+                  </p>
+                </li>
+              </ul>
+          </p>
+        </li>
+      </ul>
+
+      <p>
+        If you satisfy all requirements for one of the letter grades and also meet one of the requirements for the next higher letter grade, 
+        you will earn a plus (+) grade; for example, a student who meets all three requirements for a "B" and also has a 
+        Preparation and Participation score of 96% (which meets the requirements for an "A") will earn a "B+". 
+      </p>
+
+      <p>
+        If you satisfy two of the three requirements for one of the letter grades as well as the requirement for the third category in the 
+        next lower letter grade, you will earn a minus (-) grade; for example, a student who meets the first two requirements for an "A" 
+        and also earns 3's or higher on 12 of 16 final exam problems (the third requirement for a "B") will earn a final grade of "A-". 
+      </p>
+
+      <p>
+        Students who do not earn a "D-" or higher according to the above rules will earn an "E".
+      </p>
+
+      <p>
+        The instructor reserves the right to change the above requirements for grade determination at any time and for any reason, 
+        but only in ways which will favor students!
+      </p>
+      
+    </paragraphs>
+
+    <paragraphs>
+      <title>Advantages of Standards Based Grading</title>
+
+      <p>
+        This grading system may be unfamiliar to you, and therefore cause some level of confusion or stress. 
+        Please try to keep an open mind about this grading system and remember things are not bad simply because they are unfamiliar! 
+        From my point of view as a mathematics professor who has taught a vast number of courses for over a decade, 
+        including this one multiple times, there are three major advantages of this standards based grading system over a 
+        traditional weighted-average system:
+      </p>
+
+      <ol>
+        <li>
+          <p>
+            You will have several opportunities to display your understanding of the material. 
+            You will be assessed on each of the LTs twice on quizzes and have the ability to reassess on them, 
+            so you do not need to worry if you do not completely understand a LT the first time you encounter it! 
+            If it takes you a bit longer to grasp a concept, you will not be penalized as long as you make the effort to reassess!
+          </p>
+        </li>
+        <li>
+          <p>
+            This approach stresses working out problems in a completely correct way to emphasize your learning, since doing many tasks poorly is not advantageous. 
+            This will help you succeed in your next mathematics class!
+          </p>
+        </li>
+        <li>
+          <p>
+            This system allows you to see the expectations of our course and how well you are meeting those expectations. 
+            If you would like to do better in this course, this system will make it clear exactly how you can do better 
+            (e.g., study a particular LT on which you have a low score and reassess on it!).
+          </p>
+        </li>
+      </ol>
+
+      <p>
+        If at any time you are unsure about how you are progressing in this course, I would be more than happy to speak with you about your progress!
+      </p>
+      
+    </paragraphs>
+  </subsection>
+
+  <subsection xml:id="subsec-132-Course_Policies">
+    <title>Course Policies</title>
+    
+    <paragraphs>
+      <title>Extra Credit</title>
+
+      <p>
+        There will be no extra credit available in this course. If you are interested in raising your grade, take the time you would have spent on 
+        an extra credit assignment and spend it making sure you get more "regular credit" instead; for example, by studying for and scheduling a reassessment!
+      </p>
+      
+    </paragraphs>
+
+    <paragraphs>
+      <title>Attendance and Class Recording</title>
+      
+      <p>
+        You are expected to attend each class meeting. 
+        If you must miss class, you are responsible for all announcements and material covered. 
+        Many of the topics we will cover build upon previously covered topics, so getting behind in this course can be problematic. 
+        With that said:  <alert> If you are sick, please do not comes to class!</alert>. 
+        I will make sure you do not miss anything! To this end, an attempt will be made to record all class meetings. 
+        These recordings will be accessible only to the instructor and students in this course for the purpose of reviewing class 
+        discussions and presentations at a later time. These recordings could include your image, voice, and other forms of 
+        participation in this course. By enrolling in this course you are consenting to being recorded in this way.
+      </p>
+    </paragraphs>
+
+    <paragraphs>
+      <title>Class Cancelation</title>
+
+      <p>
+        If class is canceled for any reason (including WSU closing), you will likely be expected to review some course material on your own before the next class meeting. 
+        All expectations will be communicated through email shortly after the cancellation is announced.
+      </p>
+      
+    </paragraphs>
+
+    <paragraphs>
+      <title>Email</title>
+      
+      <p>
+        I try to respond to emails within 24 hours; typically, emails received by 4:00pm will receive a response the same day, 
+        and those received after 4:00pm will receive a response the following day. You are encouraged to email me regarding any
+        issues you are having in this course at any time; however, emails sent within 24 hours of an assessment may not get 
+        a response beforehand. So please plan accordingly!
+      </p>
+    </paragraphs>
+
+    <paragraphs>
+      <title>Studying</title>
+      
+        <p>
+          To succeed in this course, you will need to dedicate a significant amount of time to the course. 
+          Mathematics is learned by doing, meaning it is important to work numerous problems to fully understand the concepts we cover. 
+          The assigned work is the minimum amount you should be completing; if you feel like you don't fully understand a concept, ask
+          me for some additional problems. A general rule (for all college courses) is for each hour of class per week you spend a minimum 
+          of two hours outside of class on homework, studying, etc. Since this course meets three hours per week, you should plan 
+          to spend at least six hours outside of class per week working on math.
+        </p>
+    </paragraphs>
+
+    <paragraphs>
+      <title>Accomodations</title>
+      
+      <p>
+        If you anticipate issues related to the format or requirements of this course, please contact me as early as possible to discuss ways to 
+        ensure your full participation. If you believe formal, disability-related accommodations are appropriate, it is very important you register 
+        with the Student Accessibility Services office and notify me of your eligibility for such accommodations.
+        We can then plan how to best coordinate your accommodations.
+      </p>
+    </paragraphs>
+
+    <paragraphs>
+      <title>Academic Integrity and AI Usage</title>
+
+      <p>
+        The WSU Mathematics Department does not tolerate academic dishonesty! For an explanation of what is considered “academic dishonesty” at 
+        WSU, please see the policy included in the <url href="https://catalog.worcester.edu/undergraduate/academic-policies-procedures/academic-honesty">2025-2026 
+        Undergraduate Catalog</url>. All instructors in the WSU Mathematics Department are required to 
+        report all incidents of academic dishonesty observed, detected, or otherwise determined to have occurred to the WSU Academic Central File. 
+        WSU requires some penalty be imposed for every reported violation of the academic honesty policy. All incidents of academic dishonesty in 
+        this course will result in (at least) a score of 0 on that assignment; additional penalties will be imposed at the instructor's discretion 
+        and/or as required by the 
+        <url href="https://webcdn.worcester.edu/mathematics/wp-content/uploads/sites/17/2023/03/Math-Department-Academic-Honesty-Policy.pdf">Mathematics 
+        Department Academic Honesty Policy</url>. In this course, instances of academic dishonesty will include (but not limited to!):
+      </p>
+
+      <ul>
+        <li>
+          <p>
+            Submitting any assignment (including reading guides) you did not complete yourself, either work produced by a classmate/friend or from an online 
+            third party (such as Chegg, Course Hero, etc.). Working with your peers is completely fine and strongly encouraged; 
+            however, any submissions should be a result of your own understanding of the subject matter based on this collaboration.
+          </p>
+        </li>
+        <li>
+          <p>
+            Using course materials, the internet, or a calculator in any unauthorized way during a weekly quiz or the final exam (including looking up answers online, 
+            viewing notes/texts/examples on MOM or another site, communicating with other students, etc.).
+          </p>
+        </li>
+        <li>
+          <p>
+            AI cannot be used on graded assignments in this course unless otherwise specified.
+          </p>
+        </li>
+      </ul>
+      
+    </paragraphs>
+
+    <paragraphs>
+      <title>Instructor Rights</title>
+      <p>
+        <alert> As the instructor of this course, I reserve the right to make changes to the above course policies at any time. All changes will be announced in class.</alert>
+      </p>
+    </paragraphs>
+  </subsection>
+
+  <subsection xml:id="subsec-132-LASC">
+    <title>LASC</title>
+    <p>
+      This is a Quantitative Reasoning (QR) course in the Liberal Arts and Sciences Curriculum (LASC).
+      This course will address the following LASC Objectives:
+    </p>
+    <ol>
+      <li>
+        Acquaint students with formal systems, procedures, and sequences of operations.
+      </li>
+      <li>
+        Strengthen students' understanding of variables and functions.
+      </li>
+      <li>
+        Apply mathematical techniques to the analysis and solution of real-life problems.
+      </li>
+      <li>
+        Emphasize the importance of accuracy, including precise language and careful definitions of mathematical concepts.
+      </li>
+      <li>
+        Understand both the underlying principles and practical applications of one or more fields of mathematics.
+      </li>
+      <li>
+        Develop an understanding of and facility with statistical analysis, including understanding of its applications and limitations.
+      </li>
+      <li>
+        Communicate effectively orally and in writing.
+      </li>
+      <li>
+        Understand and employ quantitative and qualitative reasoning.
+      </li>
+      <li>
+        Apply skills in critical thinking.
+      </li>
+      <li>
+        Understand the roles of science and technology in our modern world.
+      </li>
+      <li>
+        Understand how scholars in various disciplines approach problems and construct knowledge.
+      </li>
+      <li>
+        Become socially responsible agents in the world.
+      </li>
+      <li>
+        Make connections across courses and disciplines.
+      </li>
+      <li>
+        Develop as healthy individuals--physically, emotionally, socially, ethically, and intellectually.
+      </li>
+    </ol>
+  </subsection>
+
+  <subsection xml:id="subsec-132-StudentLearningOutcomes">
+    <title>Student Learning Outcomes</title>
+    <p>
+      Students will be able to
+    </p>
+    <ol>
+      <li>
+        <p>
+          Justify their mathematical reasoning verbally, symbolically and in writing.
+        </p>
+      </li>
+      <li>
+        <p>
+          Solve problems related to standard and nonstandard units of measure and perform unit conversions for length, weight, area, and volume.
+        </p>
+      </li>
+      <li>
+        <p>
+          Use properties of polygons, angles, and lines to solve problems.
+        </p>
+      </li>
+      <li>
+        Analyze and write deductive proofs.
+      </li>
+      <li>
+        Solve problems involving area, perimeter, volume, and surface area.
+      </li>
+      <li>
+        Solve problems involving area, perimeter, volume, and surface area.
+      </li>
+
+    </ol>
+  </subsection>
+
+  <subsection xml:id="subsec-132-TentativeSchedule">
+    <title>Tentative Schedule</title>
+
+    <p>
+      Below is a tentative schedule for this course, with a heavy emphasis on "tentative." 
+      Learning target numbers are given in parentheses.
+      Adjustments will be announced in class as well as via email. 
+      Note the last day to drop the course is <alert>Monday, February 2</alert>, the last day to withdrawal is <alert>Wednesday, April 1</alert>, 
+      and the last day to elect pass/fail status is <alert> Wednesday, April 8 </alert>.
+    </p>
+
+      <tabular>
+        <row header = "yes">
+          <cell>Week (Mon)</cell>
+          <cell>Tuesday Topics (LT)</cell>
+          <cell>Thursday Topics (LT)</cell>
+        </row>
+        <row>
+          <cell>1/19</cell>
+          <cell>Course Introductions</cell>
+          <cell>Measurement Problems (1)</cell>
+        </row>
+        <row>
+          <cell>1/26</cell>
+          <cell>Length/Width/Capacity (2)</cell>
+          <cell>Angles (3)</cell>
+        </row>
+        <row>
+          <cell>2/2</cell>
+          <cell>Basic Geometric Objects (4)</cell>
+          <cell>Triangles (5)</cell>
+        </row>
+        <row>
+          <cell>2/9</cell>
+          <cell>Triangles and Quadrilaterals (6)</cell>
+          <cell>Unknown Angle Problems (7)</cell>
+        </row>
+        <row>
+          <cell>2/16</cell>
+          <cell>Parallel Lines (8)</cell>
+          <cell>Angles of a Polygon (9)</cell>
+        </row>
+        <row>
+          <cell>2/23</cell>
+          <cell>Congruent Triangles (10)</cell>
+          <cell>Area Basics (11)</cell>
+        </row>
+        <row>
+          <cell>3/2</cell>
+          <cell>Area of Polygons (12)</cell>
+          <cell>Pythagorean Theorem (13)</cell>
+        </row>
+        <row>
+          <cell>3/9</cell>
+          <cell>Similarity (14)</cell>
+          <cell><alert>Reassessment Day</alert></cell>
+        </row>
+        <row>
+          <cell>3/16</cell>
+          <cell colspan="2" halign="center"><alert>Spring Break</alert></cell>
+        </row>
+        <row>
+          <cell>3/23</cell>
+          <cell>Similar Triangles (15)</cell>
+          <cell>Area and Scaling (16)</cell>
+        </row>
+        <row>
+          <cell>3/30</cell>
+          <cell>Circles (17)</cell>
+          <cell>Area of Circles (18)</cell>
+        </row>
+        <row>
+          <cell>4/6</cell>
+          <cell>Volume (19)</cell>
+          <cell>Cylinders, Cones, Pyramids, Spheres (20)</cell>
+        </row>
+        <row>
+          <cell>4/13</cell>
+          <cell>Statistics (21)</cell>
+          <cell>Probability (22)</cell>
+        </row>
+        <row>
+          <cell>4/20</cell>
+          <cell>Review/catch up</cell>
+          <cell>Review/catch up</cell>
+        </row>
+        <row>
+          <cell>4/27</cell>
+          <cell>Review/catch up</cell>
+          <cell><alert>Reassessment Day</alert></cell>
+        </row>
+        <row>
+          <cell>5/4</cell>
+          <cell colspan="2" halign="center"><alert>Final Exam: Thursday, May 7, 8:30-11:30am</alert></cell>
+        </row>
+      </tabular>
+  </subsection>
+
+  <subsection xml:id="subsec-132-LearningTargets">
+    <title>Learning Targets (LTs)</title>
+
+    <p>
+      Here is a list of the 22 LTs for this course. Most will only be referred to by number 
+      (as in, "This week's quiz will cover LTs #12, 13 and 14.") so you will need to refer to this list frequently.
+    </p>
+
+    <ol>
+      <li>
+        <p>
+          Use bar diagrams and units to solve measurement word problems.
+        </p>
+      </li>
+      <li>
+        <p>
+          Convert between units of length, weight, and capacity, and solve arithmetic problems.
+        </p>
+      </li>
+      <li>
+        <p>
+          Define, identify, and provide examples of different types of angles and related terminology, and solve problems involving angles.
+        </p>
+      </li>
+      <li>
+        <p>
+          Define, identify, and use concepts related to angles, parallel/perpendicular lines, triangles, and circles, and use these to solve problems and answer questions.
+        </p>
+      </li>
+      <li>
+        <p>
+          Solve problems using the interior angle sum and exterior angles of a triangle.
+        </p>
+      </li>
+      <li>
+        <p>
+          Identify, provide examples of, and answer questions about different types of triangles and quadrilaterals.
+        </p>
+      </li>
+      <li>
+        <p>
+          Write a clear "Teacher's Solution" for an unknown angle problem.
+        </p>
+      </li>
+      <li>
+        <p>
+          Identify types of angles relating to parallel lines, and use parallel lines, transversals, and auxiliary lines to solve unknown angle problems.
+        </p>
+      </li>
+      <li>
+        <p>
+          Apply the sum of interior and exterior angles of polygons to solve problems.
+        </p>
+      </li>
+      <li>
+        <p>
+          Determine whether two triangles are congruent, and use congruent triangles to solve problems.
+        </p>
+      </li>
+      <li>
+        <p>
+          Solve problems involving area, including composite figures and regions with holes.
+        </p>
+      </li>
+      <li>
+        <p>
+          Justify and apply formulas for the area of triangles, parallelograms, and trapezoids.
+        </p>
+      </li>
+      <li>
+        <p>
+          Solve problems using the Pythagorean Theorem and its converse, both with and without square roots.
+        </p>
+      </li>
+      <li>
+        <p>
+          Solve problems involving similarity and scaling, including applications to right triangles.
+        </p>
+      </li>
+      <li>
+        <p>
+          Determine whether two triangles are similar, and use similar triangles to solve problems.
+        </p>
+      </li>
+      <li>
+        <p>
+          Convert between units of area and explain how scaling affects area.
+        </p>
+      </li>
+      <li>
+        <p>
+          Solve problems involving pi and the circumference of circles.
+        </p>
+      </li>
+      <li>
+        <p>
+          Solve problems involving the area of a circle.
+        </p>
+      </li>
+      <li>
+        <p>
+          Answer questions and solve problems about units of volume, and calculate basic volumes.
+        </p>
+      </li>
+      <li>
+        <p>
+          Solve problems using the volumes of cylinders, cones, pyramids, and spheres.
+        </p>
+      </li>
+      <li>
+        <p>
+          Calculate the mean, median, and mode of a data set, and solve related problems.
+        </p>
+      </li>
+      <li>
+        <p>
+          Develop a probability model for an experiment and its sample space, and use it to determine probabilities of events.
+        </p>
+      </li>
+    </ol>
+    
+  </subsection>
+</section>
