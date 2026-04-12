@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<section xml:id="ma-190-syllabus" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>MA-190-BL: Precalculus</title>
+  
+  <introduction>
+    <p>
+      Worcester State University, Spring 2026
+    </p>
+  </introduction>
+
+  <!-- Include chapters -->
+
+  <subsection xml:id="sec-190-course-info">
+    <title>Course Information</title>
+
+    <p>
+      <dl>
+        <li>
+          <title>Instructor</title>
+          <p>
+            Dr. Jason A. Hardin, Professor of Mathematics, Sullivan 145H, 
+            <url href="mailto:jhardin@worcester.edu">jhardin@worcester.edu</url>.
+          </p>
+        </li>
+
+        <li>
+          <title>Office Hours</title>
+
+          <p>
+            Office hours are times when I will regularly be available to answer questions or discuss concerns 
+            you have with the course; no appointment is necessary during these times! Office hours may be attended 
+            either in-person or via <url href="https://worcester.zoom.us/j/94288849183">Zoom</url> at the following 
+            times: Mondays 9:00am - 10:30am and Thursdays 1:00pm - 2:30pm. 
+            Evening Zoom appointments are available upon request with advanced notice.
+          </p>
+        </li>       
+        <li>
+          <title>Prerequisite</title>
+
+          <p>
+            MA-240 (Theory of Proof) with a grade of C or better
+          </p>
+        </li>
+        <li>
+            <title>Future Courses</title>
+            <p>
+                MA-200 (Calculus I) requires a C- or higher in this course.
+            </p>
+        </li>
+      </dl>
+    </p>
+
+
+    <paragraphs>
+      <title>Responsibility for Learning</title>
+      <p>
+        Every student in this course is responsible for their own learning. 
+        The instructor will make every effort to support you; however, if you need any help
+        it is your responsibility to reach out either via email or by attending office hours. 
+        You are responsible for checking your email daily for course announcements!
+      </p>
+    </paragraphs>
+
+    <paragraphs>
+      <title>Course Content</title>
+      <p>
+        The course will focus on the mathematical foundations for calculus. 
+        The course covers exponential and logarithmic functions; trigonometric functions, equations, and identities; 
+        and matrices and solving systems of equations and inequalities. 
+        Applications to real world situations will be considered throughout.
+      </p>
+    </paragraphs>
+
+    <paragraphs>
+        <title>Course Technology Requirements</title>
+        <p>
+            Given the primarily online format of the course, students should be fluent with basic technological 
+            tasks such as getting online, using email, and uploading documents. 
+            In order to take this course, you need to have access to the following 
+            (if any of these are an issue, you should contact your instructor by September 8!):
+        </p>
+        <ul>
+            <li>
+                <p>
+                    A computer capable of accessing the internet.
+                </p>
+            </li>
+            <li>
+                <p>
+                    A high-speed internet connection.
+                </p>
+            </li>
+            <li>
+                <p>
+                    A phone or tablet (equipped with an appropriate app) with working camera capable of scanning written work 
+                    into a \textbf{single} PDF, or a scanner with this same capability.
+                </p>
+            </li>
+        </ul>
+    </paragraphs>
+
+    <paragraphs>
+      <title>Required Course Materials</title>
+      <p>
+        All course documents, materials, and assignments will be posted on MyOpenMath (MOM), a free online course management system specifically designed for mathematics. 
+        You will need to create an account and register for our course on MOM to get started. 
+        A textbook is not required, though we will loosely follow the free open-source textbook ``Algebra and Trigonometry 2e'' by Abramson; 
+        links to both an online version and a downloadable PDF will be posted on MOM.
+      </p>
+    </paragraphs>
+
+    <paragraphs>
+      <title>Calculators</title>
+      <p>
+        A scientific, non-graphing calculator capable of computing logarithmic and trigonometric values is required, 
+        though its use will be limited to only a handful of sections. 
+        I recommend the TI-30X IIS, which you can usually find for around \$15. 
+        You will be asked to complete most quiz/exam questions without use of a calculator. 
+        Graphing calculators, phones, and tablets are never allowed!
+      </p>
+    </paragraphs>
+
+    <paragraphs>
+        <title>Course Structure</title>
+        <p>
+            This is a blended asynchronous course which combines asynchronous online work and in-person exams. 
+            The course is broken up into 11 units, each usually covering two distinct topics, that will become available on Monday mornings. 
+            All direct learning of course material will be done independently using a series of instructor-created videos. 
+            This allows you to work on your own schedule and at your own pace throughout the week (while meeting deadlines) 
+            with the ability to go back and review material as needed. 
+            The typical unit will consist of the following (details found later in this syllabus):
+        </p>
+        <ul>
+            <li>
+                <p>
+                    A series of videos posted on MOM presenting the course content.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Two online problem sets on MOM, one for each topic, due by 11:59pm on Sundays.
+                </p>
+            </li>
+            <li>
+                <p>
+                    A timed closed-note online quiz administered on MyOpenMath will follow the even-numbered units.
+                </p>
+            </li>
+        </ul>
+        <p>
+            More details about these assessments can be found below in the appropriate sections; 
+            a schedule with due dates can be found at the end of the syllabus. 
+            Due to the amount of work required for the course, you are strongly encouraged to work 
+            on course material each day throughout the week, as much as this is possible. 
+            This will lead to a better understanding of the course material, and subsequently a better course grade. 
+            Despite the asynchronous nature of the course, you are welcome to reach out to the instructor at anytime with questions! 
+            The asynchronicity is designed to provide flexibility on when you work on the course material, not to create a hindrance to your success!
+        </p>
+    </paragraphs>
+
+    <paragraphs>
+        <title>Deadlines and LatePasses</title>
+        <p>
+            All assignments in the course will have strict deadlines they must be completed by to receive credit. 
+            To account for any unexpected emergencies or technical issues that may occur, we will utilize the LatePass feature in MOM. 
+            A LatePass can be redeemed for an automatic 48-hour extension on an assignment (some exclusions apply, listed below); 
+            to use a LatePass, click the "Use LatePass" button next to the appropriate assignment on MOM and the platform will automatically
+            extend the due date for that assignment to 48 hours after the original due date. 
+            Each student will be given 14 LatePasses to use as they wish throughout the semester. 
+            Note a maximum of two LatePasses can be used on any single assignment. 
+            <alert>LatePasses can not be used on any online problem set which you view in "Practice" mode prior to redeeming the LatePass</alert>. 
+            If circumstances require a more substantial extension, contact your instructor as soon as possible to discuss this possibility. 
+        </p>
+    </paragraphs>
+  </subsection>
+
+
+
+
+
+  <!-- Other subsections for larger dividers -->
+  <subsection xml:id="sec-190-grading">
+    <title>Assignments and Grading</title>
+
+    <paragraphs>
+      <title>Course Videos</title>
+      <p>
+        All course content will be presented using a series of instructor-created videos, posted to YouTube and available through MOM. 
+        The videos will provide all relevant definitions, technique descriptions, and completely worked-out examples. 
+        The videos in each unit will typically have a combined run time of around an hour (though this might vary a bit from unit to unit); 
+        most individual videos will be 10--12 minutes in length. 
+        You should take notes on the videos, just as you would in a lecture-based course, and use these notes when completing the assignments. 
+      </p>
+    </paragraphs>
+
+    <paragraphs>
+        <title>Online Problem Sets</title>
+        <p>
+            There will be two online problem sets for each unit. 
+            Online problem sets are due by 11:59pm on Sundays and are eligible for LatePasses when not opened in "Practice" mode. 
+            Your score on each set will be considered as a percent and each set will be weighted equally when computing your online problem set grade. 
+            No problem set scores will be dropped. 
+            The online problem sets are set up so you can try most problems two times, then the correct answer will be shown. 
+            If you miss a problem and want to improve your score, you can click the "Try a similar problem" link, which will give you a new question of the same type. 
+            You can keep on working on versions of a question until you get it correct. 
+            Each problem set will contain a few problems in which you will need to submit a worked out solution to a problem; 
+            these problems will have only one attempt and answers will not be available until after the due date has passed. 
+            <alert>You must earn at least 50% on an assignment for your score to count towards your grade; 
+            any set in which you earn less than 50% will be counted as a 0.</alert>
+            Problem sets will remain available in "Practice" mode after their due date to provide additional practice of concepts; 
+            new versions of problems can be generated and answered, but scores will not be saved. 
+            <alert>Be aware, opening an online problem set in "Practice" mode will disqualify you from being able to redeem a LatePass on that problem set!</alert>
+        </p>
+        <p>
+            Although you will be entering only answers, I encourage you to work out each problem carefully on paper. 
+            This will help you follow your reasoning when you are reviewing for quizzes/exams. 
+            I strongly encourage you to start each assignment right away so you will have ample time to ask questions. 
+            The exercises are intended to both provide practice of concepts covered in the videos as well as extend these concepts 
+            beyond what is done in the videos -- in particular, you should expect to find some of the exercises difficult. 
+            Many quiz/exam problems will be based on the problem sets, including the more difficult ones, so you should aim to 
+            understand the underlying idea for each assigned problem. 
+            You should expect to spend several hours each week working on problem sets.
+        </p>
+        <p>
+            If you are having trouble on a problem, you may use the "Message Instructor" link, which will allow you to send me a message through MOM; 
+            the specific problem you are working on will be automatically included in the message. 
+            I can then reply to the message with some guidance. 
+            These messages are internal to MOM and not email, so my reply will go to your messages when you login to MOM.
+        </p>
+    </paragraphs>
+
+
+    <paragraphs>
+      <title>Online Quizzes</title>
+
+      <p>
+        A timed <alert> CLOSED-NOTE </alert> quiz in MyOpenMath will follow the even-numbered units, 
+        and will be due by 11:59pm on the following Sunday along with the next unit. 
+        All quiz scores will be weighted equally; none will be dropped. 
+        You will have 60 minutes to take each quiz -- once you start, you must finish within 60 minutes. 
+        Once you submit your quiz in MyOpenMath, you must take pictures/scan all relevant work you performed and submit it on MyOpenMath. 
+        <alert>YOU MUST SUBMIT ALL WORK WHICH SUPPORTS YOUR QUIZ ANSWERS WITHIN 20 MINUTES OF COMPLETING YOUR QUIZ. 
+        FAILURE TO DO SO WILL RESULT IN A SCORE OF 0 ON THAT QUIZ!</alert> 
+        I reserve the right to deduct points from a quiz problem if it is not fully supported in your submitted work, even if the answer is correct. 
+        Although quizzes will be completed online and will not be monitored, 
+        <alert>quizzes are closed-note</alert>; 
+        any evidence of cheating will result in a 0 on that quiz.
+      </p>
+    </paragraphs>
+
+    <paragraphs>
+      <title>Exams</title>
+      <p>
+        There will be two exams in this course, a midterm and a cumulative final exam, administered in-person in Sullivan 121 on the following dates:
+      </p>
+      <ul>
+        <li>
+            <p>
+                The midterm will be held on <alert>Thursday, March 12, 4:00pm-6:00pm</alert>.
+            </p>
+        </li>
+        <li>
+            <p>
+                The cumulative final exam will be held on <alert>Thursday, April 30, 4:00pm-7:00pm</alert>.
+            </p>
+        </li>
+      </ul>
+      <p>
+        Make-up midterm exams will not be given for any reason; 
+        if you miss a midterm for a legitimate and documented reason, your score on the portion of the final exam covering that 
+        midterm's material will be considered your midterm score. 
+        Make-up final exams will be given at the instructor's discretion and only when there is a 
+        legitimate and documented reason for missing the original final exam. 
+        Working or arriving late for class are not legitimate reasons for missing an exam!
+      </p>
+    </paragraphs>
+
+    <paragraphs>
+        <title>Grade Allocation</title>
+        <p>
+            Your course grade will be determined by the following distribution. 
+            <alert>You must get at least a 50% on the final exam in order to pass the class</alert>.
+        </p>
+        <tabular>
+            <row header="yes">
+                <cell>Assignment</cell>
+                <cell>Percentage</cell>
+            </row>
+            <row>
+                <cell>Online Problem Sets</cell>
+                <cell>20%</cell>
+            </row>
+            <row>
+                <cell>Online Quizzes</cell>
+                <cell>20%</cell>
+            </row>
+            <row>
+                <cell>Midterm</cell>
+                <cell>25%</cell>
+            </row>
+            <row>
+                <cell>Final Exam</cell>
+                <cell>35%</cell>
+            </row>
+        </tabular>
+    </paragraphs>
+
+
+    <paragraphs>
+      <title>Grading Scale</title>
+      <p>
+        Letter grades will be assigned as follows. Grades will not be curved.
+      </p>
+      <tabular>
+        <row header="yes">
+            <cell>Letter Grade</cell>
+            <cell>Percent Needed</cell>
+        </row>
+        <row>
+            <cell>A</cell>
+            <cell>93%</cell>
+        </row>
+        <row>
+            <cell>A-</cell>
+            <cell>90%</cell>
+        </row>
+        <row>
+            <cell>B+</cell>
+            <cell>87%</cell>
+        </row>
+        <row>
+            <cell>B</cell>
+            <cell>83%</cell>
+        </row>
+        <row>
+            <cell>B-</cell>
+            <cell>80%</cell>
+        </row>
+        <row>
+            <cell>C+</cell>
+            <cell>77%</cell>
+        </row>
+        <row>
+            <cell>C</cell>
+            <cell>73%</cell>
+        </row>
+        <row>
+            <cell>C-</cell>
+            <cell>70%</cell>
+        </row>
+        <row>
+            <cell>D+</cell>
+            <cell>67%</cell>
+        </row>
+        <row>
+            <cell>D</cell>
+            <cell>63%</cell>
+        </row>
+        <row>
+            <cell>D-</cell>
+            <cell>60%</cell>
+        </row>
+        <row>
+            <cell>E</cell>
+            <cell>Below 60%</cell>
+        </row>
+      </tabular>
+    </paragraphs>
+  </subsection>
+
+  <subsection xml:id="subsec-190-Course_Policies">
+    <title>Course Policies</title>
+    
+    <paragraphs>
+      <title>Extra Credit</title>
+      <p>
+        There will be no extra credit available in this course. If you are interested in raising your grade, take the time you would have spent on 
+        an extra credit assignment and spend it making sure you get more "regular credit" instead: 
+        master a topic you've found difficult, find exercises in the textbook to work on, spend a few extra hours studying, etc.
+      </p>
+    </paragraphs>
+
+    <paragraphs>
+      <title>Email/Messages</title>
+      
+      <p>
+        I try to respond to emails/MOM messages within 24 hours -- typically, emails/messages received by 4:00pm will receive a response the same day, 
+        and those received after 4:00pm will receive a response the following day. 
+        You are encouraged to email/message me regarding any issues you are having in the course at any time; 
+        however, emails/messages sent within 24 hours of a due date may not get a response before the deadline. 
+        So, please, plan accordingly!
+      </p>
+    </paragraphs>
+
+    <paragraphs>
+      <title>Studying</title>
+      
+        <p>
+          To succeed in this course, you will need to dedicate a significant amount of time to working on precalculus. 
+          Mathematics is learned by doing, meaning it is important to work numerous problems to fully understand the concepts we cover. 
+          The assigned work is the minimum amount you should be completing; if you feel like you don't fully understand a concept, 
+          ask me for some additional practice problems. 
+          This is a 4-credit course, which means there should be 4 learning hours per week. 
+          A general rule (in all college courses) is for each learning hour per week you spend a minimum of two additional hours on problem sets, 
+          studying, reading the text, etc. Since this course is 4-credits, you should plan to spend at least an additional 8 hours 
+          (for a total of at least 12 hours) working on precalculus per week.
+        </p>
+    </paragraphs>
+
+    <paragraphs>
+        <title>Tutoring</title>
+        <p>
+            The WSU Math Center (Sullivan 140) will be offering free drop-in tutoring for this course this semester. 
+            Details will be announced during the first week of class.
+        </p>
+    </paragraphs>
+
+    <paragraphs>
+      <title>Accomodations</title>
+      
+      <p>
+        If you anticipate issues related to the format or requirements of this course, please contact me as early as possible to discuss ways to 
+        ensure your full participation. If you believe formal, disability-related accommodations are appropriate, it is very important you register 
+        with the Student Accessibility Services office and notify me of your eligibility for such accommodations.
+        We can then plan how to best coordinate your accommodations.
+      </p>
+    </paragraphs>
+
+    <paragraphs>
+      <title>Academic Integrity and AI Usage</title>
+
+      <p>
+        The WSU Mathematics Department does not tolerate academic dishonesty! For an explanation of what is considered “academic dishonesty” at 
+        WSU, please see the policy included in the <url href="https://catalog.worcester.edu/undergraduate/academic-policies-procedures/academic-honesty">2025-2026 
+        Undergraduate Catalog</url>. All instructors in the WSU Mathematics Department are required to 
+        report all incidents of academic dishonesty observed, detected, or otherwise determined to have occurred to the WSU Academic Central File. 
+        WSU requires some penalty be imposed for every reported violation of the academic honesty policy. All incidents of academic dishonesty in 
+        this course will result in (at least) a score of 0 on that assignment; additional penalties will be imposed at the instructor's discretion 
+        and/or as required by the 
+        <url href="https://webcdn.worcester.edu/mathematics/wp-content/uploads/sites/17/2023/03/Math-Department-Academic-Honesty-Policy.pdf">Mathematics 
+        Department Academic Honesty Policy</url>. In this course, instances of academic dishonesty will include (but not limited to!):
+      </p>
+
+      <ul>
+        <li>
+          <p>
+            Submitting any assignment you did not complete yourself, either work produced by a classmate/friend or from an online resources 
+            (such as an online calculator) or third party (such as Chegg, Course Hero, etc.).
+          </p>
+        </li>
+        <li>
+          <p>
+            Using course materials/notes, the internet, or a calculator/other device in any unauthorized way during an online quiz or an in-person exam.
+          </p>
+        </li>
+        <li>
+          <p>
+            Sharing the contents of a quiz with a classmate.
+          </p>
+        </li>
+        <li>
+          <p>
+            AI cannot be used on graded assignments in this course unless otherwise specified.
+          </p>
+        </li>
+      </ul>
+      
+    </paragraphs>
+
+    <paragraphs>
+      <title>Instructor Rights</title>
+      <p>
+        <alert> As the instructor of this course, I reserve the right to make changes to the above course policies at any time. All changes will be announced in class.</alert>
+      </p>
+    </paragraphs>
+  </subsection>
+
+
+  <subsection xml:id="subsec-190-StudentLearningOutcomes">
+    <title>Student Learning Outcomes</title>
+    <p>
+      Students will be able to
+    </p>
+    <ol>
+      <li>
+        <p>
+          Justify their mathematical reasoning and use correct mathematical notation and terminology.
+        </p>
+      </li>
+      <li>
+        <p>
+          Solve exponential, logarithmic, and trigonometric equations, as well as systems of linear equations.
+        </p>
+      </li>
+      <li>
+        Analyze and transform graphs of exponential, logarithmic, and trigonometric functions.
+      </li>
+      <li>
+        Simplify and evaluate expressions involving logarithms, trigonometric functions, and inverse trigonometric functions.
+      </li>
+      <li>
+        Prove and apply trigonometric identities, including those involving the sums/differences of angles, half angles, and double angles.
+      </li>
+      <li>
+        Solve problems from real life applications such as growth and decay, triangle measurement, or harmonic motion.
+      </li>
+    </ol>
+  </subsection>
+
+  <subsection xml:id="subsec-190-LASC">
+    <title>LASC</title>
+    <p>
+       This is a Quantitative Reasoning (QR) course in the Liberal Arts and Sciences Curriculum (LASC). 
+    </p>
+    <p>
+        The course addresses the following LASC Quantitative Reasoning objectives:
+    </p>
+    <ol>
+        <li>
+            <p>
+                Acquaint students with formal systems, procedures, and sequences of operations.
+            </p>
+        </li>
+        <li>
+            <p>
+                Strengthen students' understanding of variables and functions.
+            </p>
+        </li>
+        <li>
+            <p>
+                Apply mathematical techniques to the analysis and solution of real-life problems.
+            </p>
+        </li>
+        <li>
+            <p>
+                Emphasize the importance of accuracy, including precise language and careful definitions of mathematical concepts.
+            </p>
+        </li>
+        <li>
+            <p>
+                Understand both the underlying principles and practical applications of one or more fields of mathematics.
+            </p>
+        </li>
+    </ol>
+    <p>
+        and the following LASC overarching objectives:
+    </p>
+    <ol>
+        <li>
+            <p>
+                Communicate effectively orally and in writing.
+            </p>
+        </li>
+        <li>
+            <p>
+                Understand and employ quantitative and qualitative reasoning.
+            </p>
+        </li>
+        <li>
+            <p>
+                Apply skills in critical thinking.
+            </p>
+        </li>
+        <li>
+            <p>
+                Understand the roles of science and technology in our modern world.
+            </p>
+        </li>
+        <li>
+            <p>
+                Make connections across courses and disciplines.
+            </p>
+        </li>
+        <li>
+            <p>
+                Develop as healthy individuals--physically, emotionally, socially, ethically, and intellectually.
+            </p>
+        </li>
+    </ol>
+  </subsection>
+
+  <subsection xml:id="subsec-190-TentativeSchedule">
+    <title>Course Schedule</title>
+
+    <p>
+      The schedule below indicates the topics covered in each unit of the course as well as the due dates for all problem sets and quizzes. 
+      All assignments are due by 11:59pm on the specified day. 
+      Note the last day to drop the course is <alert>Monday, February 2</alert>, the last day to withdrawal is <alert>Wednesday, April 1</alert>, 
+      and the last day to elect pass/fail status is <alert> Wednesday, April 8 </alert>.
+    </p>
+
+      <tabular halign="center" bottom="medium">
+        <row header="yes">
+          <cell>Unit</cell>
+          <cell>Topics</cell>
+          <cell>Due Date</cell>
+        </row>
+        <row>
+            <cell>1</cell>
+            <cell>Exponential functions and properties</cell>
+            <cell>Sunday 2/1</cell>
+        </row>
+        <row>
+            <cell>2</cell>
+            <cell>Logarithmic functions and properties</cell>
+            <cell>Sunday 2/8</cell>
+        </row>
+        <row>
+            <cell>3</cell>
+            <cell>
+                <line>Exponential and logarithmic equations and modeling</line>
+                <line>Quiz 1</line>
+                </cell>
+            <cell>Sunday 2/15</cell>
+        </row>
+        <row>
+            <cell>4</cell>
+            <cell>Angles and right triangle trigonometry</cell>
+            <cell>Sunday 2/22</cell>
+        </row>
+        <row>
+            <cell>5</cell>
+            <cell>
+                <line>Unit circle trigonometry</line>
+                <line>Quiz 2</line>
+            </cell>
+            <cell>Sunday 3/1</cell>
+        </row>
+        <row>
+            <cell>6</cell>
+            <cell>Trigonometric graphs and inverse trigonometry</cell>
+            <cell>Sunday 3/8</cell>
+        </row>
+        <row>
+            <cell colspan="3">
+                <alert>
+                    Midterm:  Thursday, 3/12, 4:00-6:00pm
+                </alert>
+            </cell>
+        </row>
+        <row>
+            <cell>7</cell>
+            <cell>
+                <line>Trigonometric identities, sum/difference identities</line>
+                <line>Quiz 3</line>
+            </cell>
+            <cell>Sunday 3/29</cell>
+        </row>
+        <row>
+            <cell>8</cell>
+            <cell>Double/half-angles identities, trigonometric equations</cell>
+            <cell>Sunday 4/5</cell>
+        </row>
+        <row>
+            <cell>9</cell>
+            <cell>
+                <line>Laws of sines and cosines, area of triangles</line>
+                <line>Quiz 4</line>
+            </cell>
+            <cell>Sunday 4/12</cell>
+        </row>
+        <row>
+            <cell>10</cell>
+            <cell>Systems of linear equations and matrices</cell>
+            <cell>Sunday 4/19</cell>
+        </row>
+        <row>
+            <cell>11</cell>
+            <cell>
+                <line>Systems of linear inequalities and non-linear equations</line>
+                <line>Quiz 5</line>
+            </cell>
+            <cell>Sunday 4/26</cell>
+        </row>
+        <row>
+            <cell colspan="3">
+                <alert>
+                    Final Exam:  Thursday, 4/30, 4:00-7:00pm
+                </alert>
+            </cell>
+        </row>
+      </tabular>
+  </subsection>
+</section>
