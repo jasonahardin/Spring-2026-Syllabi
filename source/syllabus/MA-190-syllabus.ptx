@@ -19,11 +19,24 @@
         <li>
           <title>Instructor</title>
           <p>
-            Dr. Jason A. Hardin, Professor of Mathematics, Sullivan 145H, 
-            <url href="mailto:jhardin@worcester.edu">jhardin@worcester.edu</url>.
+            Dr. Jason A. Hardin, Professor of Mathematics
           </p>
         </li>
 
+        <li>
+          <title>Email</title>
+          <p>
+             <url href="mailto:jhardin@worcester.edu">jhardin@worcester.edu</url>
+          </p>
+        </li>
+
+        <li>
+          <title>Office</title>
+          <p>
+             Sullivan 145H
+          </p>
+        </li>
+        
         <li>
           <title>Office Hours</title>
 
@@ -94,7 +107,7 @@
             <li>
                 <p>
                     A phone or tablet (equipped with an appropriate app) with working camera capable of scanning written work 
-                    into a \textbf{single} PDF, or a scanner with this same capability.
+                    into a single PDF, or a scanner with this same capability.
                 </p>
             </li>
         </ul>
@@ -105,8 +118,8 @@
       <p>
         All course documents, materials, and assignments will be posted on MyOpenMath (MOM), a free online course management system specifically designed for mathematics. 
         You will need to create an account and register for our course on MOM to get started. 
-        A textbook is not required, though we will loosely follow the free open-source textbook ``Algebra and Trigonometry 2e'' by Abramson; 
-        links to both an online version and a downloadable PDF will be posted on MOM.
+        A textbook is not required, though we will loosely follow the free open-source textbook 
+        <em>Algebra and Trigonometry 2e</em> by Abramson; links to both an online version and a downloadable PDF will be posted on MOM.
       </p>
     </paragraphs>
 
@@ -115,7 +128,7 @@
       <p>
         A scientific, non-graphing calculator capable of computing logarithmic and trigonometric values is required, 
         though its use will be limited to only a handful of sections. 
-        I recommend the TI-30X IIS, which you can usually find for around \$15. 
+        I recommend the TI-30X IIS, which you can usually find for around $15. 
         You will be asked to complete most quiz/exam questions without use of a calculator. 
         Graphing calculators, phones, and tablets are never allowed!
       </p>
@@ -129,7 +142,7 @@
             All direct learning of course material will be done independently using a series of instructor-created videos. 
             This allows you to work on your own schedule and at your own pace throughout the week (while meeting deadlines) 
             with the ability to go back and review material as needed. 
-            The typical unit will consist of the following (details found later in this syllabus):
+            The typical unit will consist of the following:
         </p>
         <ul>
             <li>
@@ -217,7 +230,7 @@
             This will help you follow your reasoning when you are reviewing for quizzes/exams. 
             I strongly encourage you to start each assignment right away so you will have ample time to ask questions. 
             The exercises are intended to both provide practice of concepts covered in the videos as well as extend these concepts 
-            beyond what is done in the videos -- in particular, you should expect to find some of the exercises difficult. 
+            beyond what is done in the videos - in particular, you should expect to find some of the exercises difficult. 
             Many quiz/exam problems will be based on the problem sets, including the more difficult ones, so you should aim to 
             understand the underlying idea for each assigned problem. 
             You should expect to spend several hours each week working on problem sets.
@@ -238,7 +251,7 @@
         A timed <alert> CLOSED-NOTE </alert> quiz in MyOpenMath will follow the even-numbered units, 
         and will be due by 11:59pm on the following Sunday along with the next unit. 
         All quiz scores will be weighted equally; none will be dropped. 
-        You will have 60 minutes to take each quiz -- once you start, you must finish within 60 minutes. 
+        You will have 60 minutes to take each quiz - once you start, you must finish within 60 minutes. 
         Once you submit your quiz in MyOpenMath, you must take pictures/scan all relevant work you performed and submit it on MyOpenMath. 
         <alert>YOU MUST SUBMIT ALL WORK WHICH SUPPORTS YOUR QUIZ ANSWERS WITHIN 20 MINUTES OF COMPLETING YOUR QUIZ. 
         FAILURE TO DO SO WILL RESULT IN A SCORE OF 0 ON THAT QUIZ!</alert> 
@@ -431,7 +444,7 @@
       <title>Academic Integrity and AI Usage</title>
 
       <p>
-        The WSU Mathematics Department does not tolerate academic dishonesty! For an explanation of what is considered “academic dishonesty” at 
+        The WSU Mathematics Department does not tolerate academic dishonesty! For an explanation of what is considered "academic dishonesty" at 
         WSU, please see the policy included in the <url href="https://catalog.worcester.edu/undergraduate/academic-policies-procedures/academic-honesty">2025-2026 
         Undergraduate Catalog</url>. All instructors in the WSU Mathematics Department are required to 
         report all incidents of academic dishonesty observed, detected, or otherwise determined to have occurred to the WSU Academic Central File. 

@@ -19,11 +19,17 @@
         <li>
           <title>Instructor</title>
           <p>
-            Dr. Jason A. Hardin, Professor of Mathematics, 
-            <url href="mailto:jhardin@worcester.edu">jhardin@worcester.edu</url>.
+            Dr. Jason A. Hardin, Professor of Mathematics
           </p>
         </li>
 
+        <li>
+          <title>Email</title>
+          <p>
+             <url href="mailto:jhardin@worcester.edu">jhardin@worcester.edu</url>
+          </p>
+        </li>
+        
         <li>
           <title>Meeting Information</title>
           <p>
@@ -72,7 +78,7 @@
       <p>
         A scientific, non-graphing calculator capable of computing logarithmic and trigonometric values is required, 
         though its use will be limited to only a handful of sections. 
-        I recommend the TI-30X IIS, which you can usually find for around \$15. 
+        I recommend the TI-30X IIS, which you can usually find for around $15. 
         You will be asked to complete most quiz/exam questions without use of a calculator. 
         Graphing calculators, phones, and tablets are never allowed!
       </p>
@@ -82,7 +88,6 @@
         <title>MyOpenMath</title>
         <p>
             MyOpenMath (MOM) is a free, open source, online course management system designed for mathematics which we will use extensively in this course. 
-            It is available at https://www.myopenmath.com/ . 
             You will need to create an account and register for our course on MyOpenMath to get started; 
             we will do this as a group during the first class meeting. 
             All course documents and materials will be posted on MyOpenMath; and all homework will be completed through MyOpenMath.
@@ -110,7 +115,7 @@
         <p>
             The online homework is set up so you can try most problems two times, then the correct answer will be shown 
             (there may be some questions in which you have only one try, this will be indicated in the homework set). 
-            If you miss a problem and want to improve your score, you can click the ``Try a similar problem'' link, 
+            If you miss a problem and want to improve your score, you can click the "Try a similar problem" link, 
             which will give you a new question of the same type. 
             You can keep on working on versions of a question until you get it correct. 
             <alert>You must earn at least 50% on an assignment for your score to count towards your grade; 
@@ -283,7 +288,7 @@
       <title>Academic Integrity and AI Usage</title>
 
       <p>
-        The WSU Mathematics Department does not tolerate academic dishonesty! For an explanation of what is considered “academic dishonesty” at 
+        The WSU Mathematics Department does not tolerate academic dishonesty! For an explanation of what is considered "academic dishonesty" at 
         WSU, please see the policy included in the <url href="https://catalog.worcester.edu/undergraduate/academic-policies-procedures/academic-honesty">2025-2026 
         Undergraduate Catalog</url>. All instructors in the WSU Mathematics Department are required to 
         report all incidents of academic dishonesty observed, detected, or otherwise determined to have occurred to the WSU Academic Central File. 

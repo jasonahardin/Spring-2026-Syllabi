@@ -19,11 +19,24 @@
         <li>
           <title>Instructor</title>
           <p>
-            Dr. Jason A. Hardin, Professor of Mathematics, Sullivan 145H, 
-            <url href="mailto:jhardin@worcester.edu">jhardin@worcester.edu</url>.
+            Dr. Jason A. Hardin, Professor of Mathematics
           </p>
         </li>
 
+        <li>
+          <title>Email</title>
+          <p>
+             <url href="mailto:jhardin@worcester.edu">jhardin@worcester.edu</url>
+          </p>
+        </li>
+
+        <li>
+          <title>Office</title>
+          <p>
+             Sullivan 145H
+          </p>
+        </li>
+        
         <li>
           <title>Office Hours</title>
 
@@ -120,7 +133,7 @@
         class prep assignments, written homework sets, in-class quizzes, and a cumulative final exam; detailed information about each of these categories, 
         as well as how your course grade will be determined using these categories, can be found in the following sections of this syllabus. You will likely 
         find this system to be new and unfamiliar, so I encourage you to ask questions about this approach to grading as soon as they arise! Please see the 
-        ``Advantages of Standards Based Grading'' section of this syllabus for more information about why we are using this system in this course!
+        "Advantages of Standards Based Grading" section of this syllabus for more information about why we are using this system in this course!
       </p>
     </paragraphs>
 
@@ -144,7 +157,7 @@
             (in which case you will need to export your work as a PDF), or typeset with LaTeX (in which case a single PDF is automatically generated). 
             All homework assignments will by due by 11:59pm on the Wednesday after they are assigned. To account for any unexpected emergencies or 
             technical issues that may occur, we will utilize the LatePass feature in MOM. A LatePass can be redeemed for an automatic 48-hour extension 
-            on a homework assignment; to use a LatePass, click the ``Use LatePass'' button next to the appropriate assignment on MOM, and the platform will 
+            on a homework assignment; to use a LatePass, click the "Use LatePass" button next to the appropriate assignment on MOM, and the platform will 
             automatically extend the due date for that assignment to 48 hours after the original due date. Each student will be given 11 LatePasses to use 
             as they wish throughout the semester. A maximum of two LatePasses can be used on any single assignment. If circumstances require a more substantial 
             extension, contact your instructor to discuss this possibility.
@@ -156,10 +169,10 @@
             <alert> All submitted work must reflect your personal understanding of each solution!</alert>
         </p>
         <p>
-            Each problem will be graded individually and will receive a mark of either ``S'' (Success), ``R'' (Revisable), or ``N'' (New attempt needed), 
+            Each problem will be graded individually and will receive a mark of either "S" (Success), "R" (Revisable), or "N" (New attempt needed), 
             according to the following rubric:
         </p>
-        <tabular>
+        <tabular bottom="medium">
         <row header="yes">
           <cell>Score</cell>
           <cell>Description</cell>
@@ -236,7 +249,7 @@
         showed your understanding of the corresponding LT according to the following rubric:
       </p>
 
-      <tabular>
+      <tabular bottom="medium">
         <row header="yes">
           <cell>Score</cell>
           <cell>Description</cell>
@@ -311,7 +324,7 @@
         <p>
             For convenience, the following table provides all reassessment info for the various tasks in this course:
         </p>
-        <tabular>
+        <tabular bottom="medium">
             <row header="yes">
                 <cell>Task</cell>
                 <cell>Reassessment Allowed?</cell>
