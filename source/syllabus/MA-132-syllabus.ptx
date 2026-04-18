@@ -19,11 +19,24 @@
         <li>
           <title>Instructor</title>
           <p>
-            Dr. Jason A. Hardin, Professor of Mathematics, Sullivan 145H, 
-            <url href="mailto:jhardin@worcester.edu">jhardin@worcester.edu</url>.
+            Dr. Jason A. Hardin, Professor of Mathematics
           </p>
         </li>
 
+        <li>
+          <title>Email</title>
+          <p>
+             <url href="mailto:jhardin@worcester.edu">jhardin@worcester.edu</url>
+          </p>
+        </li>
+
+        <li>
+          <title>Office</title>
+          <p>
+             Sullivan 145H
+          </p>
+        </li>
+        
         <li>
           <title>Office Hours</title>
 
@@ -85,7 +98,8 @@
       <title>Required Course Materials</title>
       <p>
         There is one required text for this course:  
-        \emph{Elementary Geometry for Teachers}, by Thomas H. Parker and Scott J. Baldridge. 
+        <em>Elementary Geometry for Teachers</em>
+        by Thomas H. Parker and Scott J. Baldridge. 
         The book is currently out of print, but a copy will be loaned to you for the semester; 
         you will need to return it. All other course documents, materials, and assignments will 
         be posted on MyOpenMath (MOM), a free online course management system specifically designed for mathematics. 
@@ -123,7 +137,7 @@
         detailed information about each of these categories, as well as how your course grade will be determined using 
         these categories, can be found in the following sections of this syllabus. You will likely find this system to 
         be unfamiliar, so I encourage you to ask questions about this approach to grading as soon as they arise! Please 
-        see the ``Advantages of Standards Based Grading'' section of this syllabus for more information about why we are 
+        see the "Advantages of Standards Based Grading" section of this syllabus for more information about why we are 
         using this system in this course!
       </p>
     </paragraphs>
@@ -157,11 +171,11 @@
         <li>
           <title>Class Participation</title>
           <p>
-            We will meet weekly on Tuesdays and Thursdays, 8:30--9:45am. Attendance and active participation, 
+            We will meet weekly on Tuesdays and Thursdays, 8:30-9:45am. Attendance and active participation, 
             including working collaboratively with classmates, during these meetings are expected. The class 
             meetings will consist of a mix of lecture and active learning activities based on the course 
             material from the reading guide. You will earn a weekly participation grade; to earn credit for 
-            this, you must fully participate throughout the entire class meeting -- this means being in class 
+            this, you must fully participate throughout the entire class meeting - this means being in class 
             ready to go at 8:30am, having phones/laptops/other devices put away, and only your notes and other 
             material related to this course and the topic at hand on your desk.
           </p>
@@ -183,7 +197,7 @@
         corresponding LT according to the following rubric:
       </p>
 
-      <tabular>
+      <tabular bottom="medium">
         <row header="yes">
           <cell>Score</cell>
           <cell>Description</cell>
@@ -191,7 +205,7 @@
         <row>
           <cell>4</cell>
           <cell>
-            <alert>Mastery of the LT exceeding expections.</alert>
+            <alert>Mastery of the LT exceeding expectations.</alert>
             Provides clear understanding with complete and clear communication. 
             Any error is trivial.
           </cell>
@@ -239,10 +253,10 @@
         In order to continually emphasize progress and growth, you may try to improve your score on any LT by reassessing on it. 
         In other words, if you did not perform well on a LT on an in-class quiz, you may reattempt a question on that LT again. 
         Reassessments can be taken in-class during a future quiz or in my office during office hours or other times set aside for reassessments. 
-        \textbf{Reassessments must be scheduled at least 24 hours in advance using the Google Form posted on MOM} to ensure I will
-         have the appropriate reassessment ready! You \textbf{must} submit this form 24 hours prior in order to be allowed to reassess; 
+        <alert>Reassessments must be scheduled at least 24 hours in advance using the Google Form posted on MOM</alert> to ensure I will
+         have the appropriate reassessment ready! You must submit this form 24 hours prior in order to be allowed to reassess; 
          simply showing up at my office will not suffice! You may reassess no more than two LTs per week. In addition to these weekly 
-         reassessment opportunities, two of our Thursday class meetings, March 12 and April 30, will be dedicated ``reassessment days.'' 
+         reassessment opportunities, two of our Thursday class meetings, March 12 and April 30, will be dedicated "reassessment days." 
          No new material will be covered on these days, instead the class time will be dedicated to allowing students to reassess on up to 
          10 LTs each in addition to the usual LT quiz for that class meeting. 
       </p>
@@ -253,7 +267,7 @@
         at this point Alex's score for this LT is a 1.5 (the average of their two attempts, 0 and 3). 
         Alex then requests to reassess on this LT in an office hour the following week. 
         Alex drops by to reassess on the LT and earns a 4; now their score for this LT is a 3.5 
-        (the average of the highest two attempts, 3 and 4) -- meaning the initial 0 is no longer counted! 
+        (the average of the highest two attempts, 3 and 4) - meaning the initial 0 is no longer counted! 
         In this example, Alex has learned from their mistake, and shown growth and progress towards mastery of this LT. 
         Their score reflects this growth!
       </p>
@@ -271,7 +285,7 @@
       <title>Final Exam</title>
       
       <p>
-        The third category is a cumulative final exam, which is scheduled for Thursday, May 7, 8:30 -- 11:30am, 
+        The third category is a cumulative final exam, which is scheduled for Thursday, May 7, 8:30 - 11:30am, 
         the time indicated on the 
         <url href="https://www.worcester.edu/academics/catalogs-calendars/2025-26-academic-calendar/">WSU Spring 2026 Academic Calendar</url>. 
         The final exam will consist of 16 problems, each associated with one of the 22 LTs for this course. 
@@ -670,7 +684,7 @@
       and the last day to elect pass/fail status is <alert> Wednesday, April 8 </alert>.
     </p>
 
-      <tabular>
+      <tabular bottom="medium">
         <row header = "yes">
           <cell>Week (Mon)</cell>
           <cell>Tuesday Topics (LT)</cell>

@@ -234,7 +234,7 @@
         <row>
           <cell>4</cell>
           <cell>
-            <alert>Mastery of the LT exceeding expections.</alert>
+            <alert>Mastery of the LT exceeding expectations.</alert>
             Provides clear understanding with complete and clear communication. 
             Any error is trivial.
           </cell>
@@ -669,7 +669,7 @@
 
       <tabular bottom="medium">
         <row header = "yes">
-          <cell halign="center">Week (Mon)</cell>
+          <cell>Week (Mon)</cell>
           <cell>Tuesday Topics (LT)</cell>
           <cell>Thursday Topics (LT)</cell>
         </row>
