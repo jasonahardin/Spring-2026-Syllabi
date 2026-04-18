@@ -667,9 +667,9 @@
       and the last day to elect pass/fail status is <alert> Wednesday, April 8 </alert>.
     </p>
 
-      <tabular>
+      <tabular bottom="medium">
         <row header = "yes">
-          <cell>Week (Mon)</cell>
+          <cell halign="center">Week (Mon)</cell>
           <cell>Tuesday Topics (LT)</cell>
           <cell>Thursday Topics (LT)</cell>
         </row>
