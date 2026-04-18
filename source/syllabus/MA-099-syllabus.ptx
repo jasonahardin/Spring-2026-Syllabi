@@ -20,8 +20,21 @@
         <li>
           <title>Instructor</title>
           <p>
-            Dr. Jason A. Hardin, Professor of Mathematics, Sullivan 145H, 
-            <url href="mailto:jhardin@worcester.edu">jhardin@worcester.edu</url>.
+            Dr. Jason A. Hardin, Professor of Mathematics
+          </p>
+        </li>
+
+        <li>
+          <title>Email</title>
+          <p>
+             <url href="mailto:jhardin@worcester.edu">jhardin@worcester.edu</url>
+          </p>
+        </li>
+
+        <li>
+          <title>Office</title>
+          <p>
+             Sullivan 145H
           </p>
         </li>
 
@@ -174,19 +187,19 @@
         Online homework sets are due by 11:59pm on Mondays. While the number of problems in each set will vary, your score will be 
         considered as a percent and each set will be weighted equally when computing your online homework grade. 
         No scores will be dropped. The online homework is set up so you can try most problems two times, then the correct answer will be shown. 
-        If you miss a problem and want to improve your score, you can click the “Try a similar problem” link, which will give you 
+        If you miss a problem and want to improve your score, you can click the "Try a similar problem" link, which will give you 
         a new question of the same type. You can keep on working on versions of a question until you get it correct. 
         You must earn at least 50% on an assignment for your score to count towards your grade; any set in which you earn less than 
-        50% will be counted as a 0. Assignments will remain available in “Practice” mode after their due date to provide additional 
+        50% will be counted as a 0. Assignments will remain available in "Practice" mode after their due date to provide additional 
         practice of concepts; new versions of problems can be generated and answered, but scores will not be saved.
       </p>
       <p>
         To account for any unexpected emergencies or technical issues that may occur, we will utilize the LatePass feature in MOM. 
-        A LatePass can be redeemed for an automatic 48-hour extension on a homework. To use a LatePass, click the “Use LatePass” 
+        A LatePass can be redeemed for an automatic 48-hour extension on a homework. To use a LatePass, click the "Use LatePass" 
         button next to the appropriate assignment on MOM and the platform will automatically extend the due date for that assignment 
         to 48 hours after the original due date. Each student will be given 14 LatePasses to use as they wish throughout the semester. 
         Note a maximum of two LatePasses can be used on any single assignment. LatePasses can NOT be used on any online homework set 
-        which you view in “Practice” mode prior to redeeming the LatePass. If circumstances require a more substantial extension, contact 
+        which you view in "Practice" mode prior to redeeming the LatePass. If circumstances require a more substantial extension, contact 
         your instructor as soon as possible to discuss this possibility.
       </p>
       <p>
@@ -198,7 +211,7 @@
         aim to understand the underlying idea for each assigned exercise. You should expect to spend several hours each week working on homework.
       </p>
       <p>
-        If you are having trouble on a problem, you may use the “Message Instructor” link, which will allow you to send me a message through MOM; 
+        If you are having trouble on a problem, you may use the "Message Instructor" link, which will allow you to send me a message through MOM; 
         the specific problem you are working on will be automatically included in the message. I can then reply to the message with some guidance. 
         These messages are internal to MOM and not email, so my reply will go to your messages when you login to MOM.
       </p>
@@ -213,7 +226,7 @@
         each individual question based on how well you showed your understanding of the corresponding LT according to the following rubric:
       </p>
 
-      <tabular>
+      <tabular bottom="medium">
         <row header="yes">
           <cell>Score</cell>
           <cell>Description</cell>
