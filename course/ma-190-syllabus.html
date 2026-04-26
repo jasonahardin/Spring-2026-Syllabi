@@ -35,11 +35,11 @@ window.MathJax = {
     "packages": {
       "[+]": [
         "base",
-        "extpfeil",
         "ams",
         "amscd",
         "color",
         "newcommand",
+        "textmacros",
         "knowl"
       ]
     }
@@ -55,10 +55,10 @@ window.MathJax = {
   "loader": {
     "load": [
       "input/asciimath",
-      "[tex]/extpfeil",
       "[tex]/amscd",
       "[tex]/color",
       "[tex]/newcommand",
+      "[tex]/textmacros",
       "[pretext]/mathjaxknowl3.js"
     ],
     "paths": {
@@ -101,14 +101,14 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.13.4';
+eBookConfig.runestone_version = '7.13.5';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.b76b8eace4405b9e.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.bbf2283c5c1d4f99.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<script src="_static/prefix-runtime.52176322e2c1dde5.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.bbf2283c5c1d4f99.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.b12a7b3f0773ebcd.css">
 <script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
@@ -211,50 +211,71 @@ eBookConfig.enable_chatcodes =  false;
 </ul>
 </li>
 </ul></nav></div>
-<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="ma-190-syllabus"><h2 class="heading hide-type">
+<main class="ptx-main"><div id="ptx-content" class="ptx-content">
+<section class="section" id="ma-190-syllabus">
+<h2 class="heading hide-type">
 <span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">MA-190-BL: Precalculus</span>
 </h2>
-<section class="introduction" id="ma-190-syllabus-2"><div class="para" id="ma-190-syllabus-2-1">Worcester State University, Spring 2026<div class="autopermalink" data-description="Paragraph"><a href="#ma-190-syllabus-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div></section><section class="subsection" id="sec-190-course-info"><h3 class="heading hide-type">
+<section class="introduction" id="ma-190-syllabus-2">
+<div class="para" id="ma-190-syllabus-2-1">Worcester State University, Spring 2026<div class="autopermalink" data-description="Paragraph"><a href="#ma-190-syllabus-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section>
+<section class="subsection" id="sec-190-course-info">
+<h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Course Information</span>
 </h3>
 <div class="para logical" id="sec-190-course-info-2">
 <dl class="description-list">
 <dt id="sec-190-course-info-2-1-1">Instructor<div class="autopermalink" data-description="Item: Instructor"><a href="#sec-190-course-info-2-1-1" title="Copy heading and permalink for Item: Instructor" aria-label="Copy heading and permalink for Item: Instructor">🔗</a></div>
 </dt>
-<dd><div class="para" id="sec-190-course-info-2-1-1-2">Dr. Jason A. Hardin, Professor of Mathematics<div class="autopermalink" data-description="Paragraph"><a href="#sec-190-course-info-2-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div></dd>
+<dd>
+<div class="para" id="sec-190-course-info-2-1-1-2">Dr. Jason A. Hardin, Professor of Mathematics<div class="autopermalink" data-description="Paragraph"><a href="#sec-190-course-info-2-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</dd>
 <dt id="sec-190-course-info-2-1-2">Email<div class="autopermalink" data-description="Item: Email"><a href="#sec-190-course-info-2-1-2" title="Copy heading and permalink for Item: Email" aria-label="Copy heading and permalink for Item: Email">🔗</a></div>
 </dt>
-<dd><div class="para" id="sec-190-course-info-2-1-2-2">
+<dd>
+<div class="para" id="sec-190-course-info-2-1-2-2">
 <a class="external" href="mailto:jhardin@worcester.edu" target="_blank">jhardin@worcester.edu</a><div class="autopermalink" data-description="Paragraph"><a href="#sec-190-course-info-2-1-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div></dd>
+</div>
+</dd>
 <dt id="sec-190-course-info-2-1-3">Office<div class="autopermalink" data-description="Item: Office"><a href="#sec-190-course-info-2-1-3" title="Copy heading and permalink for Item: Office" aria-label="Copy heading and permalink for Item: Office">🔗</a></div>
 </dt>
-<dd><div class="para" id="sec-190-course-info-2-1-3-2">Sullivan 145H<div class="autopermalink" data-description="Paragraph"><a href="#sec-190-course-info-2-1-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div></dd>
+<dd>
+<div class="para" id="sec-190-course-info-2-1-3-2">Sullivan 145H<div class="autopermalink" data-description="Paragraph"><a href="#sec-190-course-info-2-1-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</dd>
 <dt id="sec-190-course-info-2-1-4">Office Hours<div class="autopermalink" data-description="Item: Office Hours"><a href="#sec-190-course-info-2-1-4" title="Copy heading and permalink for Item: Office Hours" aria-label="Copy heading and permalink for Item: Office Hours">🔗</a></div>
 </dt>
-<dd><div class="para" id="sec-190-course-info-2-1-4-2">Office hours are times when I will regularly be available to answer questions or discuss concerns you have with the course; no appointment is necessary during these times! Office hours may be attended either in-person or via <a class="external" href="https://worcester.zoom.us/j/94288849183" target="_blank">Zoom</a> at the following times: Mondays 9:00am - 10:30am and Thursdays 1:00pm - 2:30pm. Evening Zoom appointments are available upon request with advanced notice.<div class="autopermalink" data-description="Paragraph"><a href="#sec-190-course-info-2-1-4-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div></dd>
+<dd>
+<div class="para" id="sec-190-course-info-2-1-4-2">Office hours are times when I will regularly be available to answer questions or discuss concerns you have with the course; no appointment is necessary during these times! Office hours may be attended either in-person or via <a class="external" href="https://worcester.zoom.us/j/94288849183" target="_blank">Zoom</a> at the following times: Mondays 9:00am - 10:30am and Thursdays 1:00pm - 2:30pm. Evening Zoom appointments are available upon request with advanced notice.<div class="autopermalink" data-description="Paragraph"><a href="#sec-190-course-info-2-1-4-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</dd>
 <dt id="sec-190-course-info-2-1-5">Prerequisite<div class="autopermalink" data-description="Item: Prerequisite"><a href="#sec-190-course-info-2-1-5" title="Copy heading and permalink for Item: Prerequisite" aria-label="Copy heading and permalink for Item: Prerequisite">🔗</a></div>
 </dt>
-<dd><div class="para" id="sec-190-course-info-2-1-5-2">MA-240 (Theory of Proof) with a grade of C or better<div class="autopermalink" data-description="Paragraph"><a href="#sec-190-course-info-2-1-5-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div></dd>
+<dd>
+<div class="para" id="sec-190-course-info-2-1-5-2">MA-240 (Theory of Proof) with a grade of C or better<div class="autopermalink" data-description="Paragraph"><a href="#sec-190-course-info-2-1-5-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</dd>
 <dt id="sec-190-course-info-2-1-6">Future Courses<div class="autopermalink" data-description="Item: Future Courses"><a href="#sec-190-course-info-2-1-6" title="Copy heading and permalink for Item: Future Courses" aria-label="Copy heading and permalink for Item: Future Courses">🔗</a></div>
 </dt>
-<dd><div class="para" id="sec-190-course-info-2-1-6-2">MA-200 (Calculus I) requires a C- or higher in this course.<div class="autopermalink" data-description="Paragraph"><a href="#sec-190-course-info-2-1-6-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div></dd>
+<dd>
+<div class="para" id="sec-190-course-info-2-1-6-2">MA-200 (Calculus I) requires a C- or higher in this course.<div class="autopermalink" data-description="Paragraph"><a href="#sec-190-course-info-2-1-6-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</dd>
 </dl>
 <div class="autopermalink" data-description="Paragraph"><a href="#sec-190-course-info-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <section class="paragraphs" id="sec-190-course-info-3"><h4 class="heading"><span class="title">Responsibility for Learning.</span></h4>
 <div class="para" id="sec-190-course-info-3-2">Every student in this course is responsible for their own learning. The instructor will make every effort to support you; however, if you need any help it is your responsibility to reach out either via email or by attending office hours. You are responsible for checking your email daily for course announcements!<div class="autopermalink" data-description="Paragraph"><a href="#sec-190-course-info-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Paragraphs: Responsibility for Learning"><a href="#sec-190-course-info-3" title="Copy heading and permalink for Paragraphs: Responsibility for Learning" aria-label="Copy heading and permalink for Paragraphs: Responsibility for Learning">🔗</a></div></section><section class="paragraphs" id="sec-190-course-info-4"><h4 class="heading"><span class="title">Course Content.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: Responsibility for Learning"><a href="#sec-190-course-info-3" title="Copy heading and permalink for Paragraphs: Responsibility for Learning" aria-label="Copy heading and permalink for Paragraphs: Responsibility for Learning">🔗</a></div>
+</section>
+<section class="paragraphs" id="sec-190-course-info-4"><h4 class="heading"><span class="title">Course Content.</span></h4>
 <div class="para" id="sec-190-course-info-4-2">The course will focus on the mathematical foundations for calculus. The course covers exponential and logarithmic functions; trigonometric functions, equations, and identities; and matrices and solving systems of equations and inequalities. Applications to real world situations will be considered throughout.<div class="autopermalink" data-description="Paragraph"><a href="#sec-190-course-info-4-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Paragraphs: Course Content"><a href="#sec-190-course-info-4" title="Copy heading and permalink for Paragraphs: Course Content" aria-label="Copy heading and permalink for Paragraphs: Course Content">🔗</a></div></section><section class="paragraphs" id="sec-190-course-info-5"><h4 class="heading"><span class="title">Course Technology Requirements.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: Course Content"><a href="#sec-190-course-info-4" title="Copy heading and permalink for Paragraphs: Course Content" aria-label="Copy heading and permalink for Paragraphs: Course Content">🔗</a></div>
+</section>
+<section class="paragraphs" id="sec-190-course-info-5"><h4 class="heading"><span class="title">Course Technology Requirements.</span></h4>
 <div class="para" id="sec-190-course-info-5-2">Given the primarily online format of the course, students should be fluent with basic technological tasks such as getting online, using email, and uploading documents. In order to take this course, you need to have access to the following (if any of these are an issue, you should contact your instructor by September 8!):<div class="autopermalink" data-description="Paragraph"><a href="#sec-190-course-info-5-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="sec-190-course-info-5-3">
@@ -274,13 +295,19 @@ eBookConfig.enable_chatcodes =  false;
 <div class="autopermalink" data-description="Item"><a href="#sec-190-course-info-5-3-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
-<div class="autopermalink" data-description="Paragraphs: Course Technology Requirements"><a href="#sec-190-course-info-5" title="Copy heading and permalink for Paragraphs: Course Technology Requirements" aria-label="Copy heading and permalink for Paragraphs: Course Technology Requirements">🔗</a></div></section><section class="paragraphs" id="sec-190-course-info-6"><h4 class="heading"><span class="title">Required Course Materials.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: Course Technology Requirements"><a href="#sec-190-course-info-5" title="Copy heading and permalink for Paragraphs: Course Technology Requirements" aria-label="Copy heading and permalink for Paragraphs: Course Technology Requirements">🔗</a></div>
+</section>
+<section class="paragraphs" id="sec-190-course-info-6"><h4 class="heading"><span class="title">Required Course Materials.</span></h4>
 <div class="para" id="sec-190-course-info-6-2">All course documents, materials, and assignments will be posted on MyOpenMath (MOM), a free online course management system specifically designed for mathematics. You will need to create an account and register for our course on MOM to get started. A textbook is not required, though we will loosely follow the free open-source textbook <em class="emphasis">Algebra and Trigonometry 2e</em> by Abramson; links to both an online version and a downloadable PDF will be posted on MOM.<div class="autopermalink" data-description="Paragraph"><a href="#sec-190-course-info-6-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Paragraphs: Required Course Materials"><a href="#sec-190-course-info-6" title="Copy heading and permalink for Paragraphs: Required Course Materials" aria-label="Copy heading and permalink for Paragraphs: Required Course Materials">🔗</a></div></section><section class="paragraphs" id="sec-190-course-info-7"><h4 class="heading"><span class="title">Calculators.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: Required Course Materials"><a href="#sec-190-course-info-6" title="Copy heading and permalink for Paragraphs: Required Course Materials" aria-label="Copy heading and permalink for Paragraphs: Required Course Materials">🔗</a></div>
+</section>
+<section class="paragraphs" id="sec-190-course-info-7"><h4 class="heading"><span class="title">Calculators.</span></h4>
 <div class="para" id="sec-190-course-info-7-2">A scientific, non-graphing calculator capable of computing logarithmic and trigonometric values is required, though its use will be limited to only a handful of sections. I recommend the TI-30X IIS, which you can usually find for around $15. You will be asked to complete most quiz/exam questions without use of a calculator. Graphing calculators, phones, and tablets are never allowed!<div class="autopermalink" data-description="Paragraph"><a href="#sec-190-course-info-7-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Paragraphs: Calculators"><a href="#sec-190-course-info-7" title="Copy heading and permalink for Paragraphs: Calculators" aria-label="Copy heading and permalink for Paragraphs: Calculators">🔗</a></div></section><section class="paragraphs" id="sec-190-course-info-8"><h4 class="heading"><span class="title">Course Structure.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: Calculators"><a href="#sec-190-course-info-7" title="Copy heading and permalink for Paragraphs: Calculators" aria-label="Copy heading and permalink for Paragraphs: Calculators">🔗</a></div>
+</section>
+<section class="paragraphs" id="sec-190-course-info-8"><h4 class="heading"><span class="title">Course Structure.</span></h4>
 <div class="para" id="sec-190-course-info-8-2">This is a blended asynchronous course which combines asynchronous online work and in-person exams. The course is broken up into 11 units, each usually covering two distinct topics, that will become available on Monday mornings. All direct learning of course material will be done independently using a series of instructor-created videos. This allows you to work on your own schedule and at your own pace throughout the week (while meeting deadlines) with the ability to go back and review material as needed. The typical unit will consist of the following:<div class="autopermalink" data-description="Paragraph"><a href="#sec-190-course-info-8-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="sec-190-course-info-8-3">
@@ -302,26 +329,38 @@ eBookConfig.enable_chatcodes =  false;
 </ul>
 <div class="para" id="sec-190-course-info-8-4">More details about these assessments can be found below in the appropriate sections; a schedule with due dates can be found at the end of the syllabus. Due to the amount of work required for the course, you are strongly encouraged to work on course material each day throughout the week, as much as this is possible. This will lead to a better understanding of the course material, and subsequently a better course grade. Despite the asynchronous nature of the course, you are welcome to reach out to the instructor at anytime with questions! The asynchronicity is designed to provide flexibility on when you work on the course material, not to create a hindrance to your success!<div class="autopermalink" data-description="Paragraph"><a href="#sec-190-course-info-8-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Paragraphs: Course Structure"><a href="#sec-190-course-info-8" title="Copy heading and permalink for Paragraphs: Course Structure" aria-label="Copy heading and permalink for Paragraphs: Course Structure">🔗</a></div></section><section class="paragraphs" id="sec-190-course-info-9"><h4 class="heading"><span class="title">Deadlines and LatePasses.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: Course Structure"><a href="#sec-190-course-info-8" title="Copy heading and permalink for Paragraphs: Course Structure" aria-label="Copy heading and permalink for Paragraphs: Course Structure">🔗</a></div>
+</section>
+<section class="paragraphs" id="sec-190-course-info-9"><h4 class="heading"><span class="title">Deadlines and LatePasses.</span></h4>
 <div class="para" id="sec-190-course-info-9-2">All assignments in the course will have strict deadlines they must be completed by to receive credit. To account for any unexpected emergencies or technical issues that may occur, we will utilize the LatePass feature in MOM. A LatePass can be redeemed for an automatic 48-hour extension on an assignment (some exclusions apply, listed below); to use a LatePass, click the "Use LatePass" button next to the appropriate assignment on MOM and the platform will automatically extend the due date for that assignment to 48 hours after the original due date. Each student will be given 14 LatePasses to use as they wish throughout the semester. Note a maximum of two LatePasses can be used on any single assignment. <em class="alert">LatePasses can not be used on any online problem set which you view in "Practice" mode prior to redeeming the LatePass</em>. If circumstances require a more substantial extension, contact your instructor as soon as possible to discuss this possibility.<div class="autopermalink" data-description="Paragraph"><a href="#sec-190-course-info-9-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Paragraphs: Deadlines and LatePasses"><a href="#sec-190-course-info-9" title="Copy heading and permalink for Paragraphs: Deadlines and LatePasses" aria-label="Copy heading and permalink for Paragraphs: Deadlines and LatePasses">🔗</a></div></section><div class="autopermalink" data-description="Subsection: Course Information"><a href="#sec-190-course-info" title="Copy heading and permalink for Subsection: Course Information" aria-label="Copy heading and permalink for Subsection: Course Information">🔗</a></div></section><section class="subsection" id="sec-190-grading"><h3 class="heading hide-type">
+<div class="autopermalink" data-description="Paragraphs: Deadlines and LatePasses"><a href="#sec-190-course-info-9" title="Copy heading and permalink for Paragraphs: Deadlines and LatePasses" aria-label="Copy heading and permalink for Paragraphs: Deadlines and LatePasses">🔗</a></div>
+</section><div class="autopermalink" data-description="Subsection: Course Information"><a href="#sec-190-course-info" title="Copy heading and permalink for Subsection: Course Information" aria-label="Copy heading and permalink for Subsection: Course Information">🔗</a></div>
+</section>
+<section class="subsection" id="sec-190-grading">
+<h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Assignments and Grading</span>
 </h3>
 <section class="paragraphs" id="sec-190-grading-2"><h4 class="heading"><span class="title">Course Videos.</span></h4>
 <div class="para" id="sec-190-grading-2-2">All course content will be presented using a series of instructor-created videos, posted to YouTube and available through MOM. The videos will provide all relevant definitions, technique descriptions, and completely worked-out examples. The videos in each unit will typically have a combined run time of around an hour (though this might vary a bit from unit to unit); most individual videos will be 10--12 minutes in length. You should take notes on the videos, just as you would in a lecture-based course, and use these notes when completing the assignments.<div class="autopermalink" data-description="Paragraph"><a href="#sec-190-grading-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Paragraphs: Course Videos"><a href="#sec-190-grading-2" title="Copy heading and permalink for Paragraphs: Course Videos" aria-label="Copy heading and permalink for Paragraphs: Course Videos">🔗</a></div></section><section class="paragraphs" id="sec-190-grading-3"><h4 class="heading"><span class="title">Online Problem Sets.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: Course Videos"><a href="#sec-190-grading-2" title="Copy heading and permalink for Paragraphs: Course Videos" aria-label="Copy heading and permalink for Paragraphs: Course Videos">🔗</a></div>
+</section>
+<section class="paragraphs" id="sec-190-grading-3"><h4 class="heading"><span class="title">Online Problem Sets.</span></h4>
 <div class="para" id="sec-190-grading-3-2">There will be two online problem sets for each unit. Online problem sets are due by 11:59pm on Sundays and are eligible for LatePasses when not opened in "Practice" mode. Your score on each set will be considered as a percent and each set will be weighted equally when computing your online problem set grade. No problem set scores will be dropped. The online problem sets are set up so you can try most problems two times, then the correct answer will be shown. If you miss a problem and want to improve your score, you can click the "Try a similar problem" link, which will give you a new question of the same type. You can keep on working on versions of a question until you get it correct. Each problem set will contain a few problems in which you will need to submit a worked out solution to a problem; these problems will have only one attempt and answers will not be available until after the due date has passed. <em class="alert">You must earn at least 50% on an assignment for your score to count towards your grade; any set in which you earn less than 50% will be counted as a 0.</em> Problem sets will remain available in "Practice" mode after their due date to provide additional practice of concepts; new versions of problems can be generated and answered, but scores will not be saved. <em class="alert">Be aware, opening an online problem set in "Practice" mode will disqualify you from being able to redeem a LatePass on that problem set!</em><div class="autopermalink" data-description="Paragraph"><a href="#sec-190-grading-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="sec-190-grading-3-3">Although you will be entering only answers, I encourage you to work out each problem carefully on paper. This will help you follow your reasoning when you are reviewing for quizzes/exams. I strongly encourage you to start each assignment right away so you will have ample time to ask questions. The exercises are intended to both provide practice of concepts covered in the videos as well as extend these concepts beyond what is done in the videos - in particular, you should expect to find some of the exercises difficult. Many quiz/exam problems will be based on the problem sets, including the more difficult ones, so you should aim to understand the underlying idea for each assigned problem. You should expect to spend several hours each week working on problem sets.<div class="autopermalink" data-description="Paragraph"><a href="#sec-190-grading-3-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="sec-190-grading-3-4">If you are having trouble on a problem, you may use the "Message Instructor" link, which will allow you to send me a message through MOM; the specific problem you are working on will be automatically included in the message. I can then reply to the message with some guidance. These messages are internal to MOM and not email, so my reply will go to your messages when you login to MOM.<div class="autopermalink" data-description="Paragraph"><a href="#sec-190-grading-3-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Paragraphs: Online Problem Sets"><a href="#sec-190-grading-3" title="Copy heading and permalink for Paragraphs: Online Problem Sets" aria-label="Copy heading and permalink for Paragraphs: Online Problem Sets">🔗</a></div></section><section class="paragraphs" id="sec-190-grading-4"><h4 class="heading"><span class="title">Online Quizzes.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: Online Problem Sets"><a href="#sec-190-grading-3" title="Copy heading and permalink for Paragraphs: Online Problem Sets" aria-label="Copy heading and permalink for Paragraphs: Online Problem Sets">🔗</a></div>
+</section>
+<section class="paragraphs" id="sec-190-grading-4"><h4 class="heading"><span class="title">Online Quizzes.</span></h4>
 <div class="para" id="sec-190-grading-4-2">A timed <em class="alert">CLOSED-NOTE</em> quiz in MyOpenMath will follow the even-numbered units, and will be due by 11:59pm on the following Sunday along with the next unit. All quiz scores will be weighted equally; none will be dropped. You will have 60 minutes to take each quiz - once you start, you must finish within 60 minutes. Once you submit your quiz in MyOpenMath, you must take pictures/scan all relevant work you performed and submit it on MyOpenMath. <em class="alert">YOU MUST SUBMIT ALL WORK WHICH SUPPORTS YOUR QUIZ ANSWERS WITHIN 20 MINUTES OF COMPLETING YOUR QUIZ. FAILURE TO DO SO WILL RESULT IN A SCORE OF 0 ON THAT QUIZ!</em> I reserve the right to deduct points from a quiz problem if it is not fully supported in your submitted work, even if the answer is correct. Although quizzes will be completed online and will not be monitored, <em class="alert">quizzes are closed-note</em>; any evidence of cheating will result in a 0 on that quiz.<div class="autopermalink" data-description="Paragraph"><a href="#sec-190-grading-4-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Paragraphs: Online Quizzes"><a href="#sec-190-grading-4" title="Copy heading and permalink for Paragraphs: Online Quizzes" aria-label="Copy heading and permalink for Paragraphs: Online Quizzes">🔗</a></div></section><section class="paragraphs" id="sec-190-grading-5"><h4 class="heading"><span class="title">Exams.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: Online Quizzes"><a href="#sec-190-grading-4" title="Copy heading and permalink for Paragraphs: Online Quizzes" aria-label="Copy heading and permalink for Paragraphs: Online Quizzes">🔗</a></div>
+</section>
+<section class="paragraphs" id="sec-190-grading-5"><h4 class="heading"><span class="title">Exams.</span></h4>
 <div class="para" id="sec-190-grading-5-2">There will be two exams in this course, a midterm and a cumulative final exam, administered in-person in Sullivan 121 on the following dates:<div class="autopermalink" data-description="Paragraph"><a href="#sec-190-grading-5-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="sec-190-grading-5-3">
@@ -338,7 +377,9 @@ eBookConfig.enable_chatcodes =  false;
 </ul>
 <div class="para" id="sec-190-grading-5-4">Make-up midterm exams will not be given for any reason; if you miss a midterm for a legitimate and documented reason, your score on the portion of the final exam covering that midterm’s material will be considered your midterm score. Make-up final exams will be given at the instructor’s discretion and only when there is a legitimate and documented reason for missing the original final exam. Working or arriving late for class are not legitimate reasons for missing an exam!<div class="autopermalink" data-description="Paragraph"><a href="#sec-190-grading-5-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Paragraphs: Exams"><a href="#sec-190-grading-5" title="Copy heading and permalink for Paragraphs: Exams" aria-label="Copy heading and permalink for Paragraphs: Exams">🔗</a></div></section><section class="paragraphs" id="sec-190-grading-6"><h4 class="heading"><span class="title">Grade Allocation.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: Exams"><a href="#sec-190-grading-5" title="Copy heading and permalink for Paragraphs: Exams" aria-label="Copy heading and permalink for Paragraphs: Exams">🔗</a></div>
+</section>
+<section class="paragraphs" id="sec-190-grading-6"><h4 class="heading"><span class="title">Grade Allocation.</span></h4>
 <div class="para" id="sec-190-grading-6-2">Your course grade will be determined by the following distribution. <em class="alert">You must get at least a 50% on the final exam in order to pass the class</em>.<div class="autopermalink" data-description="Paragraph"><a href="#sec-190-grading-6-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="tabular-box natural-width"><table class="tabular">
@@ -363,7 +404,9 @@ eBookConfig.enable_chatcodes =  false;
 <td class="l m b0 r0 l0 t0 lines">35%</td>
 </tr>
 </table></div>
-<div class="autopermalink" data-description="Paragraphs: Grade Allocation"><a href="#sec-190-grading-6" title="Copy heading and permalink for Paragraphs: Grade Allocation" aria-label="Copy heading and permalink for Paragraphs: Grade Allocation">🔗</a></div></section><section class="paragraphs" id="sec-190-grading-7"><h4 class="heading"><span class="title">Grading Scale.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: Grade Allocation"><a href="#sec-190-grading-6" title="Copy heading and permalink for Paragraphs: Grade Allocation" aria-label="Copy heading and permalink for Paragraphs: Grade Allocation">🔗</a></div>
+</section>
+<section class="paragraphs" id="sec-190-grading-7"><h4 class="heading"><span class="title">Grading Scale.</span></h4>
 <div class="para" id="sec-190-grading-7-2">Letter grades will be assigned as follows. Grades will not be curved.<div class="autopermalink" data-description="Paragraph"><a href="#sec-190-grading-7-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="tabular-box natural-width"><table class="tabular">
@@ -420,25 +463,39 @@ eBookConfig.enable_chatcodes =  false;
 <td class="l m b0 r0 l0 t0 lines">Below 60%</td>
 </tr>
 </table></div>
-<div class="autopermalink" data-description="Paragraphs: Grading Scale"><a href="#sec-190-grading-7" title="Copy heading and permalink for Paragraphs: Grading Scale" aria-label="Copy heading and permalink for Paragraphs: Grading Scale">🔗</a></div></section><div class="autopermalink" data-description="Subsection: Assignments and Grading"><a href="#sec-190-grading" title="Copy heading and permalink for Subsection: Assignments and Grading" aria-label="Copy heading and permalink for Subsection: Assignments and Grading">🔗</a></div></section><section class="subsection" id="subsec-190-Course_Policies"><h3 class="heading hide-type">
+<div class="autopermalink" data-description="Paragraphs: Grading Scale"><a href="#sec-190-grading-7" title="Copy heading and permalink for Paragraphs: Grading Scale" aria-label="Copy heading and permalink for Paragraphs: Grading Scale">🔗</a></div>
+</section><div class="autopermalink" data-description="Subsection: Assignments and Grading"><a href="#sec-190-grading" title="Copy heading and permalink for Subsection: Assignments and Grading" aria-label="Copy heading and permalink for Subsection: Assignments and Grading">🔗</a></div>
+</section>
+<section class="subsection" id="subsec-190-Course_Policies">
+<h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Course Policies</span>
 </h3>
 <section class="paragraphs" id="subsec-190-Course_Policies-2"><h4 class="heading"><span class="title">Extra Credit.</span></h4>
 <div class="para" id="subsec-190-Course_Policies-2-2">There will be no extra credit available in this course. If you are interested in raising your grade, take the time you would have spent on an extra credit assignment and spend it making sure you get more "regular credit" instead: master a topic you’ve found difficult, find exercises in the textbook to work on, spend a few extra hours studying, etc.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-190-Course_Policies-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Paragraphs: Extra Credit"><a href="#subsec-190-Course_Policies-2" title="Copy heading and permalink for Paragraphs: Extra Credit" aria-label="Copy heading and permalink for Paragraphs: Extra Credit">🔗</a></div></section><section class="paragraphs" id="subsec-190-Course_Policies-3"><h4 class="heading"><span class="title">Email/Messages.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: Extra Credit"><a href="#subsec-190-Course_Policies-2" title="Copy heading and permalink for Paragraphs: Extra Credit" aria-label="Copy heading and permalink for Paragraphs: Extra Credit">🔗</a></div>
+</section>
+<section class="paragraphs" id="subsec-190-Course_Policies-3"><h4 class="heading"><span class="title">Email/Messages.</span></h4>
 <div class="para" id="subsec-190-Course_Policies-3-2">I try to respond to emails/MOM messages within 24 hours -- typically, emails/messages received by 4:00pm will receive a response the same day, and those received after 4:00pm will receive a response the following day. You are encouraged to email/message me regarding any issues you are having in the course at any time; however, emails/messages sent within 24 hours of a due date may not get a response before the deadline. So, please, plan accordingly!<div class="autopermalink" data-description="Paragraph"><a href="#subsec-190-Course_Policies-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Paragraphs: Email/Messages"><a href="#subsec-190-Course_Policies-3" title="Copy heading and permalink for Paragraphs: Email/Messages" aria-label="Copy heading and permalink for Paragraphs: Email/Messages">🔗</a></div></section><section class="paragraphs" id="subsec-190-Course_Policies-4"><h4 class="heading"><span class="title">Studying.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: Email/Messages"><a href="#subsec-190-Course_Policies-3" title="Copy heading and permalink for Paragraphs: Email/Messages" aria-label="Copy heading and permalink for Paragraphs: Email/Messages">🔗</a></div>
+</section>
+<section class="paragraphs" id="subsec-190-Course_Policies-4"><h4 class="heading"><span class="title">Studying.</span></h4>
 <div class="para" id="subsec-190-Course_Policies-4-2">To succeed in this course, you will need to dedicate a significant amount of time to working on precalculus. Mathematics is learned by doing, meaning it is important to work numerous problems to fully understand the concepts we cover. The assigned work is the minimum amount you should be completing; if you feel like you don’t fully understand a concept, ask me for some additional practice problems. This is a 4-credit course, which means there should be 4 learning hours per week. A general rule (in all college courses) is for each learning hour per week you spend a minimum of two additional hours on problem sets, studying, reading the text, etc. Since this course is 4-credits, you should plan to spend at least an additional 8 hours (for a total of at least 12 hours) working on precalculus per week.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-190-Course_Policies-4-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Paragraphs: Studying"><a href="#subsec-190-Course_Policies-4" title="Copy heading and permalink for Paragraphs: Studying" aria-label="Copy heading and permalink for Paragraphs: Studying">🔗</a></div></section><section class="paragraphs" id="subsec-190-Course_Policies-5"><h4 class="heading"><span class="title">Tutoring.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: Studying"><a href="#subsec-190-Course_Policies-4" title="Copy heading and permalink for Paragraphs: Studying" aria-label="Copy heading and permalink for Paragraphs: Studying">🔗</a></div>
+</section>
+<section class="paragraphs" id="subsec-190-Course_Policies-5"><h4 class="heading"><span class="title">Tutoring.</span></h4>
 <div class="para" id="subsec-190-Course_Policies-5-2">The WSU Math Center (Sullivan 140) will be offering free drop-in tutoring for this course this semester. Details will be announced during the first week of class.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-190-Course_Policies-5-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Paragraphs: Tutoring"><a href="#subsec-190-Course_Policies-5" title="Copy heading and permalink for Paragraphs: Tutoring" aria-label="Copy heading and permalink for Paragraphs: Tutoring">🔗</a></div></section><section class="paragraphs" id="subsec-190-Course_Policies-6"><h4 class="heading"><span class="title">Accomodations.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: Tutoring"><a href="#subsec-190-Course_Policies-5" title="Copy heading and permalink for Paragraphs: Tutoring" aria-label="Copy heading and permalink for Paragraphs: Tutoring">🔗</a></div>
+</section>
+<section class="paragraphs" id="subsec-190-Course_Policies-6"><h4 class="heading"><span class="title">Accomodations.</span></h4>
 <div class="para" id="subsec-190-Course_Policies-6-2">If you anticipate issues related to the format or requirements of this course, please contact me as early as possible to discuss ways to ensure your full participation. If you believe formal, disability-related accommodations are appropriate, it is very important you register with the Student Accessibility Services office and notify me of your eligibility for such accommodations. We can then plan how to best coordinate your accommodations.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-190-Course_Policies-6-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Paragraphs: Accomodations"><a href="#subsec-190-Course_Policies-6" title="Copy heading and permalink for Paragraphs: Accomodations" aria-label="Copy heading and permalink for Paragraphs: Accomodations">🔗</a></div></section><section class="paragraphs" id="subsec-190-Course_Policies-7"><h4 class="heading"><span class="title">Academic Integrity and AI Usage.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: Accomodations"><a href="#subsec-190-Course_Policies-6" title="Copy heading and permalink for Paragraphs: Accomodations" aria-label="Copy heading and permalink for Paragraphs: Accomodations">🔗</a></div>
+</section>
+<section class="paragraphs" id="subsec-190-Course_Policies-7"><h4 class="heading"><span class="title">Academic Integrity and AI Usage.</span></h4>
 <div class="para" id="subsec-190-Course_Policies-7-2">The WSU Mathematics Department does not tolerate academic dishonesty! For an explanation of what is considered "academic dishonesty" at WSU, please see the policy included in the <a class="external" href="https://catalog.worcester.edu/undergraduate/academic-policies-procedures/academic-honesty" target="_blank">2025-2026 Undergraduate Catalog</a>. All instructors in the WSU Mathematics Department are required to report all incidents of academic dishonesty observed, detected, or otherwise determined to have occurred to the WSU Academic Central File. WSU requires some penalty be imposed for every reported violation of the academic honesty policy. All incidents of academic dishonesty in this course will result in (at least) a score of 0 on that assignment; additional penalties will be imposed at the instructor’s discretion and/or as required by the <a class="external" href="https://webcdn.worcester.edu/mathematics/wp-content/uploads/sites/17/2023/03/Math-Department-Academic-Honesty-Policy.pdf" target="_blank">Mathematics Department Academic Honesty Policy</a>. In this course, instances of academic dishonesty will include (but not limited to!):<div class="autopermalink" data-description="Paragraph"><a href="#subsec-190-Course_Policies-7-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="subsec-190-Course_Policies-7-3">
@@ -463,11 +520,17 @@ eBookConfig.enable_chatcodes =  false;
 <div class="autopermalink" data-description="Item"><a href="#subsec-190-Course_Policies-7-3-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
-<div class="autopermalink" data-description="Paragraphs: Academic Integrity and AI Usage"><a href="#subsec-190-Course_Policies-7" title="Copy heading and permalink for Paragraphs: Academic Integrity and AI Usage" aria-label="Copy heading and permalink for Paragraphs: Academic Integrity and AI Usage">🔗</a></div></section><section class="paragraphs" id="subsec-190-Course_Policies-8"><h4 class="heading"><span class="title">Instructor Rights.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: Academic Integrity and AI Usage"><a href="#subsec-190-Course_Policies-7" title="Copy heading and permalink for Paragraphs: Academic Integrity and AI Usage" aria-label="Copy heading and permalink for Paragraphs: Academic Integrity and AI Usage">🔗</a></div>
+</section>
+<section class="paragraphs" id="subsec-190-Course_Policies-8"><h4 class="heading"><span class="title">Instructor Rights.</span></h4>
 <div class="para" id="subsec-190-Course_Policies-8-2">
 <em class="alert">As the instructor of this course, I reserve the right to make changes to the above course policies at any time. All changes will be announced in class.</em><div class="autopermalink" data-description="Paragraph"><a href="#subsec-190-Course_Policies-8-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Paragraphs: Instructor Rights"><a href="#subsec-190-Course_Policies-8" title="Copy heading and permalink for Paragraphs: Instructor Rights" aria-label="Copy heading and permalink for Paragraphs: Instructor Rights">🔗</a></div></section><div class="autopermalink" data-description="Subsection: Course Policies"><a href="#subsec-190-Course_Policies" title="Copy heading and permalink for Subsection: Course Policies" aria-label="Copy heading and permalink for Subsection: Course Policies">🔗</a></div></section><section class="subsection" id="subsec-190-StudentLearningOutcomes"><h3 class="heading hide-type">
+<div class="autopermalink" data-description="Paragraphs: Instructor Rights"><a href="#subsec-190-Course_Policies-8" title="Copy heading and permalink for Paragraphs: Instructor Rights" aria-label="Copy heading and permalink for Paragraphs: Instructor Rights">🔗</a></div>
+</section><div class="autopermalink" data-description="Subsection: Course Policies"><a href="#subsec-190-Course_Policies" title="Copy heading and permalink for Subsection: Course Policies" aria-label="Copy heading and permalink for Subsection: Course Policies">🔗</a></div>
+</section>
+<section class="subsection" id="subsec-190-StudentLearningOutcomes">
+<h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Student Learning Outcomes</span>
 </h3>
 <div class="para" id="subsec-190-StudentLearningOutcomes-2">Students will be able to<div class="autopermalink" data-description="Paragraph"><a href="#subsec-190-StudentLearningOutcomes-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -500,7 +563,10 @@ eBookConfig.enable_chatcodes =  false;
 <div class="autopermalink" data-description="Item 6"><a href="#subsec-190-StudentLearningOutcomes-3-6" title="Copy heading and permalink for Item 6" aria-label="Copy heading and permalink for Item 6">🔗</a></div>
 </li>
 </ol>
-<div class="autopermalink" data-description="Subsection: Student Learning Outcomes"><a href="#subsec-190-StudentLearningOutcomes" title="Copy heading and permalink for Subsection: Student Learning Outcomes" aria-label="Copy heading and permalink for Subsection: Student Learning Outcomes">🔗</a></div></section><section class="subsection" id="subsec-190-LASC"><h3 class="heading hide-type">
+<div class="autopermalink" data-description="Subsection: Student Learning Outcomes"><a href="#subsec-190-StudentLearningOutcomes" title="Copy heading and permalink for Subsection: Student Learning Outcomes" aria-label="Copy heading and permalink for Subsection: Student Learning Outcomes">🔗</a></div>
+</section>
+<section class="subsection" id="subsec-190-LASC">
+<h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">LASC</span>
 </h3>
 <div class="para" id="subsec-190-LASC-2">This is a Quantitative Reasoning (QR) course in the Liberal Arts and Sciences Curriculum (LASC).<div class="autopermalink" data-description="Paragraph"><a href="#subsec-190-LASC-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -568,7 +634,10 @@ eBookConfig.enable_chatcodes =  false;
 <div class="autopermalink" data-description="Item 6"><a href="#subsec-190-LASC-6-6" title="Copy heading and permalink for Item 6" aria-label="Copy heading and permalink for Item 6">🔗</a></div>
 </li>
 </ol>
-<div class="autopermalink" data-description="Subsection: LASC"><a href="#subsec-190-LASC" title="Copy heading and permalink for Subsection: LASC" aria-label="Copy heading and permalink for Subsection: LASC">🔗</a></div></section><section class="subsection" id="subsec-190-TentativeSchedule"><h3 class="heading hide-type">
+<div class="autopermalink" data-description="Subsection: LASC"><a href="#subsec-190-LASC" title="Copy heading and permalink for Subsection: LASC" aria-label="Copy heading and permalink for Subsection: LASC">🔗</a></div>
+</section>
+<section class="subsection" id="subsec-190-TentativeSchedule">
+<h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Course Schedule</span>
 </h3>
 <div class="para" id="subsec-190-TentativeSchedule-2">The schedule below indicates the topics covered in each unit of the course as well as the due dates for all problem sets and quizzes. All assignments are due by 11:59pm on the specified day. Note the last day to drop the course is <em class="alert">Monday, February 2</em>, the last day to withdrawal is <em class="alert">Wednesday, April 1</em>, and the last day to elect pass/fail status is <em class="alert">Wednesday, April 8</em>.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-190-TentativeSchedule-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -609,7 +678,9 @@ eBookConfig.enable_chatcodes =  false;
 <td class="c m b2 r0 l0 t0 lines">Trigonometric graphs and inverse trigonometry</td>
 <td class="c m b2 r0 l0 t0 lines">Sunday 3/8</td>
 </tr>
-<tr><td class="c m b2 r0 l0 t0 lines" colspan="3"><em class="alert">Midterm:  Thursday, 3/12, 4:00-6:00pm</em></td></tr>
+<tr>
+<td class="c m b2 r0 l0 t0 lines" colspan="3"><em class="alert">Midterm:  Thursday, 3/12, 4:00-6:00pm</em></td>
+</tr>
 <tr>
 <td class="c m b2 r0 l0 t0 lines">7</td>
 <td class="c m b2 r0 l0 t0 lines">Trigonometric identities, sum/difference identities<br>Quiz 3</td>
@@ -635,9 +706,14 @@ eBookConfig.enable_chatcodes =  false;
 <td class="c m b2 r0 l0 t0 lines">Systems of linear inequalities and non-linear equations<br>Quiz 5</td>
 <td class="c m b2 r0 l0 t0 lines">Sunday 4/26</td>
 </tr>
-<tr><td class="c m b2 r0 l0 t0 lines" colspan="3"><em class="alert">Final Exam:  Thursday, 4/30, 4:00-7:00pm</em></td></tr>
+<tr>
+<td class="c m b2 r0 l0 t0 lines" colspan="3"><em class="alert">Final Exam:  Thursday, 4/30, 4:00-7:00pm</em></td>
+</tr>
 </table></div>
-<div class="autopermalink" data-description="Subsection: Course Schedule"><a href="#subsec-190-TentativeSchedule" title="Copy heading and permalink for Subsection: Course Schedule" aria-label="Copy heading and permalink for Subsection: Course Schedule">🔗</a></div></section><div class="autopermalink" data-description="Section: MA-190-BL: Precalculus"><a href="#ma-190-syllabus" title="Copy heading and permalink for Section: MA-190-BL: Precalculus" aria-label="Copy heading and permalink for Section: MA-190-BL: Precalculus">🔗</a></div></section></div>
+<div class="autopermalink" data-description="Subsection: Course Schedule"><a href="#subsec-190-TentativeSchedule" title="Copy heading and permalink for Subsection: Course Schedule" aria-label="Copy heading and permalink for Subsection: Course Schedule">🔗</a></div>
+</section><div class="autopermalink" data-description="Section: MA-190-BL: Precalculus"><a href="#ma-190-syllabus" title="Copy heading and permalink for Section: MA-190-BL: Precalculus" aria-label="Copy heading and permalink for Section: MA-190-BL: Precalculus">🔗</a></div>
+</section>
+</div>
 <div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="ma-309-syllabus.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="ma-150-syllabus.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
